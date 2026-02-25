@@ -4,7 +4,8 @@
     "category": "Classic",
     "flavor": "Classic",
     "description": "",
-    "size": "500ml o 355",
+    "size": "500",
+    "size2": "355",
     "images": ["Monster Energy 500ml.png"]
   },
   {
@@ -44,7 +45,7 @@
     "category": "Dragon Ice Tea",
     "flavor": "",
     "description": "",
-    "size": "",
+    "size": "473",
     "images": [".jpg"]
   },
   {
@@ -52,7 +53,7 @@
     "category": "Java",
     "flavor": "",
     "description": "",
-    "size": "",
+    "size": "444",
     "images": [".jpg"]
   },
   {
@@ -60,7 +61,7 @@
     "category": "Java",
     "flavor": "",
     "description": "",
-    "size": "",
+    "size": "444",
     "images": [".jpg"]
   },
   {
@@ -68,7 +69,7 @@
     "category": "Java",
     "flavor": "",
     "description": "",
-    "size": "",
+    "size": "444",
     "images": [".jpg"]
   },
   {
@@ -76,12 +77,342 @@
     "category": "Java",
     "flavor": "",
     "description": "",
-    "size": "",
+    "size": "444",
     "images": [".jpg"]
   },
   {
     "name": "Rehab Peach Tea",
     "category": "Rehab",
+    "flavor": "",
+    "description": "",
+    "size": "458",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Juiced Mango Loco",
+    "category": "Juiced",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "size2": "355",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Juiced Monarch",
+    "category": "Juiced",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Juiced Aussie Style Lemonade",
+    "category": "Juiced",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Juiced Bad Apple",
+    "category": "Juiced",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Juiced Khaotic",
+    "category": "Juiced",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Juiced Viking Berry",
+    "category": "Juiced",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Nitro Super Dry",
+    "category": "Nitro",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Nitro Cosmic Peach",
+    "category": "Nitro",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "The Doctor",
+    "category": "People",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "size2": "355",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Lando Norris",
+    "category": "People",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Lewis Hamilton",
+    "category": "People",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Lewis Hamilton Zero Sugar",
+    "category": "People",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Full Throttle",
+    "category": "Classic",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra White",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "size2": "355",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra Violet",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra Fantasy Ruby Red",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra Peachy Keen",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra Paradise",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra Fiesta Mango",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra Strawberry Dreams",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra Watermelon",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra Golden Pineapple",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Monster Energy - Black ops 6",
+    "category": "Special",
+    "category2": "Black Ops 6",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Monster Energy - Black Ops 7",
+    "category": "Special",
+    "category2": "Black Ops 7",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra White - Black Ops 7",
+    "category": "Special",
+    "category2": "Black Ops 7",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Mango Loco - Black Ops 7",
+    "category": "Special",
+    "category2": "Black Ops 7",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra White - Black Ops 6",
+    "category": "Special",
+    "category2": "Black Ops 6",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Monster Energy Zero Sugar - Black Ops 6",
+    "category": "Special",
+    "category2": "Black Ops 6",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Monster Energy Zero Sugar - Black Ops 7",
+    "category": "Special",
+    "category2": "Black Ops 7",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra Black",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "473",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra Vice Guava",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "470",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Dragon Ice Tea Peach",
+    "category": "Dragon Ice Tea",
+    "flavor": "",
+    "description": "",
+    "size": "473",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra Rosa",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "?",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra Blue Hawaiian",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "473",
+    "images": [".jpg"]
+  },
+  {
+    "name": "The Doctor Zero Sugar",
+    "category": "People",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra Blue",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra Fiesta",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra Sunrise",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra Red",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra Citron",
+    "category": "Ultra",
     "flavor": "",
     "description": "",
     "size": "",

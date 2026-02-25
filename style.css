@@ -1,13 +1,3 @@
-body {
-    background-color: #1a1a1a;
-    color: #eee;
-    font-family: sans-serif;
-    margin: 0;
-    padding: 20px;
-}
-
-h1 { color: #32cd32; text-align: center; }
-
 .category-section {
     margin-bottom: 40px;
     border-top: 2px solid #333;
@@ -24,19 +14,6 @@ h1 { color: #32cd32; text-align: center; }
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
-}
-
-.monster-card {
-    background: #252525;
-    padding: 15px;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.monster-card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
 }
 
 .flavor { font-style: italic; color: #aaa; }
@@ -58,9 +35,6 @@ h1 { color: #32cd32; text-align: center; }
     font-weight: bold;
     font-size: 0.8rem;
 }
-
-.monster-card:hover { transform: scale(1.05); }
-.monster-card h3 { margin-top: 10px; font-size: 1rem; }
 
 .modal {
     display: none; 
@@ -138,22 +112,6 @@ button {
     gap: 20px;
 }
 
-.monster-card {
-    background: #252525;
-    padding: 15px;
-    border-radius: 8px;
-    text-align: center;
-    cursor: pointer;
-    transition: transform 0.2s;
-}
-
-.monster-card:hover { transform: scale(1.05); }
-
-.monster-card img {
-    max-width: 100%;
-    height: auto;
-}
-
 .modal {
     display: none;
     position: fixed;
@@ -198,11 +156,6 @@ button {
     width: 100%;
 }
 
-.monster-card.owned {
-    border: 2px solid #32cd32;
-    position: relative;
-}
-
 .owned-badge {
     display: block;
     color: #32cd32;
@@ -214,4 +167,180 @@ button {
 #add-to-collection-btn:disabled {
     background-color: #555;
     cursor: not-allowed;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: #32cd32;
+    user-select: none;
+}
+
+.checkbox-container input {
+    display: none;
+}
+
+.checkmark {
+    height: 25px;
+    width: 25px;
+    background-color: #252525;
+    border: 2px solid #32cd32;
+    border-radius: 5px;
+    position: relative;
+}
+
+.checkbox-container:hover input ~ .checkmark {
+    background-color: #333;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+    content: "X";
+    position: absolute;
+    color: #32cd32;
+    font-weight: bold;
+    font-size: 20px;
+    left: 5px;
+    top: -2px;
+}
+
+.status-container:hover {
+    background-color: rgba(50, 205, 50, 0.1);
+}
+
+.status-container input[type="checkbox"] {
+    accent-color: #32cd32;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.status-text {
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #eee;
+    text-transform: uppercase;
+}
+
+.monster-card {
+    background: #151515;
+    border-radius: 8px;
+    border: 1px solid #333;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.monster-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 20px 0;
+}
+
+.card-click-area {
+    width: 100%;
+    height: 280px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.monster-card img {
+    max-width: 100%;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.3s;
+}
+
+.monster-card h3 {
+    font-size: 1rem;
+    margin: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.status-container {
+    background-color: #000;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-top: 1px solid #333;
+    cursor: pointer;
+}
+
+.monster-card.owned {
+    border: 1px solid #32cd32;
+}
+
+.monster-card.owned .status-container {
+    background-color: rgba(50, 205, 50, 0.2);
+}
+
+.monster-card:hover {
+    border-color: #32cd32;
+    transform: translateY(-5px);
+}
+
+.monster-card:hover img {
+    transform: scale(1.05);
+}
+
+.dual-status-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid #333;
+}
+
+.dual-status-container .status-container {
+    border-top: none;
+}
+
+.dual-status-container .status-container:first-child {
+    border-right: 1px solid #333;
+}
+
+.size-label {
+    font-size: 0.7rem;
+    color: #888;
+    margin-left: 4px;
+}
+#modal-body .dual-status-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+
+#modal-body .status-container {
+    padding: 15px;
+    background: #111;
+}
+
+#modal-body .status-container:hover {
+    background: #1a1a1a;
+}
+
+.sub-category-group {
+    margin-top: 20px;
+}
+
+.sub-category-title {
+    border-left: 3px solid #32cd32;
+    padding-left: 10px;
+    margin-bottom: 15px;
 }
