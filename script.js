@@ -266,3 +266,53 @@ async function toggleOwnership(m, shouldOwn) {
         renderMonsters();
     }
 }
+function openModal(m) {
+    const isOwned1 = ownedMonsters.has(`${m.name}_${m.size}ml`);
+    const isOwned2 = m.size2 ? ownedMonsters.has(`${m.name}_${m.size2}ml`) : false;
+
+    let flavorHtml = (m.flavor && m.flavor.trim() !== "") ? `<p class="modal-flavor">Flavor: <strong>${m.flavor}</strong></p>` : "";
+    let descriptionHtml = (m.description && m.description.trim() !== "") ? `<p class="modal-description">${m.description}</p>` : "";
+
+    let statusHtml = "";
+    if (m.size2) {
+        statusHtml = `
+            <div class="dual-status-container" style="margin-top:20px; border:1px solid #333; border-radius:8px;">
+                <div class="status-container" data-size="${m.size}">
+                    <input type="checkbox" ${isOwned1 ? 'checked' : ''}>
+                    <span class="status-text">${m.size}ml</span>
+                </div>
+                <div class="status-container" data-size="${m.size2}">
+                    <input type="checkbox" ${isOwned2 ? 'checked' : ''}>
+                    <span class="status-text">${m.size2}ml</span>
+                </div>
+            </div>`;
+    } else {
+        statusHtml = `
+            <div class="status-container" data-size="${m.size}" style="margin-top:20px; border:1px solid #333; border-radius:8px;">
+                <input type="checkbox" ${isOwned1 ? 'checked' : ''}>
+                <span class="status-text">IN COLLECTION (${m.size}ml)</span>
+            </div>`;
+    }
+
+    document.getElementById('modal-body').innerHTML = `
+        <img src="img/${m.images[0]}" style="width:120px; margin-bottom:15px;" onerror="this.src='https://via.placeholder.com/150?text=No+Image'">
+        <h2 style="color:#32cd32; margin-bottom:10px;">${m.name}</h2>
+        <p style="margin-bottom:5px; font-size: 0.9rem; color: #888;">Category: <strong>${m.category}</strong></p>
+        ${flavorHtml}
+        ${descriptionHtml}
+        ${statusHtml}`;
+
+    const modalBtns = document.querySelectorAll('#modal-body .status-container');
+    modalBtns.forEach(btn => {
+        btn.onclick = () => {
+            const check = btn.querySelector('input');
+            const selectedSize = btn.getAttribute('data-size');
+            check.checked = !check.checked;
+            
+            const identifier = `${m.name}_${selectedSize}ml`;
+            toggleOwnership({ ...m, fullName: identifier, actualSize: selectedSize }, check.checked);
+        };
+    });
+
+    modal.style.display = "block";
+}

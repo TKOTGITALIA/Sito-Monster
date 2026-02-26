@@ -2,7 +2,7 @@
   {
     "name": "Monster Energy",
     "category": "Classic",
-    "flavor": "Classic",
+    "flavor": "Sweet and Salty",
     "description": "",
     "size": "500",
     "size2": "355",
@@ -19,7 +19,7 @@
   {
     "name": "Rio Punch",
     "category": "Punch",
-    "flavor": "",
+    "flavor": "Sweet papaya, vanilla ice cream, hint of black currant",
     "description": "",
     "size": "500",
     "images": ["Monster Punch Rio Punch.png"]
@@ -27,15 +27,15 @@
   {
     "name": "Pacific Punch",
     "category": "Punch",
-    "flavor": "",
+    "flavor": "Classic Fruit Punch",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Pacific Punch.png"]
   },
   {
     "name": "Pipeline Punch",
     "category": "Punch",
-    "flavor": "",
+    "flavor": "Passion Fruit, Orange, and Guava",
     "description": "",
     "size": "500",
     "images": ["Monster Punch Pipeline Punch.png"]
@@ -46,56 +46,56 @@
     "flavor": "",
     "description": "",
     "size": "473",
-    "images": [".jpg"]
+    "images": [".png"]
   },
   {
     "name": "Java Salted Caramel",
     "category": "Java",
-    "flavor": "",
+    "flavor": "Sweet and Savory Salted Caramel",
     "description": "",
     "size": "444",
-    "images": [".jpg"]
+    "images": ["Monster Java Salted Caramel.png"]
   },
   {
     "name": "Java Loca Moca",
     "category": "Java",
-    "flavor": "",
+    "flavor": "Chocolate Mocha",
     "description": "",
     "size": "444",
-    "images": [".jpg"]
+    "images": ["Monster Java Loca Moca.png"]
   },
   {
     "name": "Java Mean Bean",
     "category": "Java",
-    "flavor": "",
+    "flavor": "Vanilla Bean",
     "description": "",
     "size": "444",
-    "images": [".jpg"]
+    "images": ["Monster Java Mean Bean.png"]
   },
   {
-    "name": "Java Irish Cream",
+    "name": "Java Irish Crème",
     "category": "Java",
-    "flavor": "",
+    "flavor": "Non-Alcoholic Irish Coffee",
     "description": "",
     "size": "444",
-    "images": [".jpg"]
+    "images": ["Monster Java Irish Crème.png"]
   },
   {
     "name": "Rehab Peach Tea",
     "category": "Rehab",
-    "flavor": "",
+    "flavor": "Brewed Peach Tea",
     "description": "",
     "size": "458",
-    "images": [".jpg"]
+    "images": ["Monster Rehab Peach Tea.png"]
   },
   {
     "name": "Juiced Mango Loco",
     "category": "Juiced",
-    "flavor": "",
+    "flavor": "Juicy Mango",
     "description": "",
     "size": "500",
     "size2": "355",
-    "images": [".jpg"]
+    "images": ["Monster Juiced Mango Loco.png"]
   },
   {
     "name": "Juiced Monarch",
@@ -103,47 +103,47 @@
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Juiced Monarch.png"]
   },
   {
     "name": "Juiced Aussie Style Lemonade",
     "category": "Juiced",
-    "flavor": "",
+    "flavor": "Exotic Lemonade",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Juiced Aussie Style Lemonade.png"]
   },
   {
     "name": "Juiced Bad Apple",
     "category": "Juiced",
-    "flavor": "",
+    "flavor": "Classic fuji apple flavor that's crisp, dry and not too sweet",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Juiced Bad Apple.png"]
   },
   {
     "name": "Juiced Khaotic",
     "category": "Juiced",
-    "flavor": "",
+    "flavor": "Orange Citrus",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Juiced Khaotic.png"]
   },
   {
     "name": "Juiced Viking Berry",
     "category": "Juiced",
-    "flavor": "",
+    "flavor": "Berry flavors with a unique twist.",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Juiced Viking Berry.png"]
   },
   {
     "name": "Nitro Super Dry",
     "category": "Nitro",
-    "flavor": "",
+    "flavor": "Citrus with a light & dry texture similar to fine champagne",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Nitro Super Dry.png"]
   },
   {
     "name": "Nitro Cosmic Peach",
@@ -151,7 +151,7 @@
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Nitro Cosmic Peach.png"]
   },
   {
     "name": "The Doctor",
@@ -165,10 +165,10 @@
   {
     "name": "Lando Norris",
     "category": "People",
-    "flavor": "",
+    "flavor": "Yuzu Melon",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Lando Norris.png"]
   },
   {
     "name": "Lewis Hamilton",
@@ -188,44 +188,44 @@
   },
   {
     "name": "Full Throttle",
-    "category": "Classic",
+    "category": "Monster Energy",
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Full Throttle.png"]
   },
   {
-    "name": "Ultra White",
+    "name": "Zero Ultra",
     "category": "Ultra",
-    "flavor": "",
+    "flavor": "Light Refreshing Citrus",
     "description": "",
     "size": "500",
     "size2": "355",
-    "images": [".jpg"]
+    "images": ["Monster Zero Ultra.png"]
   },
   {
     "name": "Ultra Violet",
     "category": "Ultra",
-    "flavor": "",
+    "flavor": "Light Citrus and Grape",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Ultra Violet.png"]
   },
   {
     "name": "Ultra Fantasy Ruby Red",
     "category": "Ultra",
-    "flavor": "",
+    "flavor": "Fresh Pink Pamplemousse",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Ultra Fantasy Ruby Red.png"]
   },
   {
     "name": "Ultra Peachy Keen",
     "category": "Ultra",
-    "flavor": "",
+    "flavor": "Refreshing Peach",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Ultra Peachy Keen.png"]
   },
   {
     "name": "Ultra Paradise",
@@ -233,7 +233,7 @@
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Ultra Paradise.png"]
   },
   {
     "name": "Ultra Fiesta Mango",
@@ -241,7 +241,7 @@
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Ultra Fiesta Mango.png"]
   },
   {
     "name": "Ultra Strawberry Dreams",
@@ -249,7 +249,7 @@
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Ultra Strawberry Dreams.png"]
   },
   {
     "name": "Ultra Watermelon",
@@ -257,7 +257,7 @@
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Ultra Watermelon.png"]
   },
   {
     "name": "Ultra Golden Pineapple",
@@ -265,7 +265,7 @@
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Ultra Golden Pineapple.png"]
   },
   {
     "name": "Monster Energy - Black ops 6",
@@ -274,7 +274,7 @@
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": [".png"]
   },
   {
     "name": "Monster Energy - Black Ops 7",
@@ -283,7 +283,7 @@
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": [".png"]
   },
   {
     "name": "Ultra White - Black Ops 7",
@@ -292,7 +292,7 @@
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": [".png"]
   },
   {
     "name": "Mango Loco - Black Ops 7",
@@ -301,7 +301,7 @@
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": [".png"]
   },
   {
     "name": "Ultra White - Black Ops 6",
@@ -310,7 +310,7 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": [".jpg"]
+    "images": [".png"]
   },
   {
     "name": "Monster Energy Zero Sugar - Black Ops 6",
@@ -319,7 +319,7 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": [".jpg"]
+    "images": [".png"]
   },
   {
     "name": "Monster Energy Zero Sugar - Black Ops 7",
@@ -328,7 +328,7 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": [".jpg"]
+    "images": [".png"]
   },
   {
     "name": "Ultra Black",
@@ -336,7 +336,7 @@
     "flavor": "",
     "description": "",
     "size": "473",
-    "images": [".jpg"]
+    "images": ["Monster Ultra Black.png"]
   },
   {
     "name": "Ultra Vice Guava",
@@ -344,7 +344,7 @@
     "flavor": "",
     "description": "",
     "size": "470",
-    "images": [".jpg"]
+    "images": ["Monster Ultra Vice Guava.png"]
   },
   {
     "name": "Dragon Ice Tea Peach",
@@ -352,7 +352,7 @@
     "flavor": "",
     "description": "",
     "size": "473",
-    "images": [".jpg"]
+    "images": [".png"]
   },
   {
     "name": "Ultra Rosa",
@@ -360,7 +360,7 @@
     "flavor": "",
     "description": "",
     "size": "?",
-    "images": [".jpg"]
+    "images": ["Monster Ultra Rosa.png"]
   },
   {
     "name": "Ultra Blue Hawaiian",
@@ -368,7 +368,7 @@
     "flavor": "",
     "description": "",
     "size": "473",
-    "images": [".jpg"]
+    "images": ["Monster Ultra Blue Hawaiian.png"]
   },
   {
     "name": "The Doctor Zero Sugar",
@@ -376,7 +376,7 @@
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster The Doctor Zero Sugar.png"]
   },
   {
     "name": "Ultra Blue",
@@ -384,7 +384,7 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": [".jpg"]
+    "images": ["Monster Ultra Blue.png"]
   },
   {
     "name": "Ultra Fiesta",
@@ -392,7 +392,7 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": [".jpg"]
+    "images": [".png"]
   },
   {
     "name": "Ultra Sunrise",
@@ -400,7 +400,7 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": [".jpg"]
+    "images": ["Monster Ultra Sunrise.png"]
   },
   {
     "name": "Ultra Red",
@@ -408,14 +408,313 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": [".jpg"]
+    "images": ["Monster Ultra Red.png"]
   },
   {
     "name": "Ultra Citron",
     "category": "Ultra",
     "flavor": "",
     "description": "",
+    "size": "500",
+    "size2": "355",
+    "images": ["Monster Ultra Citron.png"]
+  },
+  {
+    "name": "Ultra Wild Passion",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Ultra Wild Passion.png"]
+  },
+  {
+    "name": "Juiced Voodoo Grape",
+    "category": "Juiced",
+    "flavor": "",
+    "description": "New Orleans, the birthplace of Louisiana Voodoo.<br>Catch it on the right night and it becomes eerly alive with chanting, incantations, and dancing pythons to lure souls from the other side.<br>Stir your own spirit with the real juice taste of Voodoo Grape.<br>Crafted in the shadows with a full vial of our underworld famous energy blend, it will keep you fired up 4 feeling good without aby bad juju! Unleash the beast!",
+    "size": "",
+    "images": ["Monster Juiced Voodoo Grape.png"]
+  },
+  {
+    "name": "Monster Energy Absolutely zero",
+    "category": "Monster Energy",
+    "flavor": "",
+    "description": "",
     "size": "",
     "images": [".jpg"]
+  },
+  {
+    "name": "Punch MIXXD",
+    "category": "Punch",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Punch MIXXD.png"]
+  },
+  {
+    "name": "Juiced Ripper",
+    "category": "Juiced",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Reserve White Pineapple",
+    "category": "Reserve",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Reserve Watermelon",
+    "category": "Reserve",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Ultra White - Apex Legends",
+    "category": "Special",
+    "category2": "Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": [".jpg"]
+  },
+  {
+    "name": "Mule Ginger Brew",
+    "category": "Special",
+    "category2": "Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Mule Ginger Brew.png"]
+  },
+  {
+    "name": "Rehab Tea + Lemonade",
+    "category": "Rehab",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Rehab Tea Lemonade.png"]
+  },
+  {
+    "name": "Rehab Green Tea",
+    "category": "Rehab",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Rehab Green Tea.png"]
+  },
+  {
+    "name": "Rehab Wild Berry Tea",
+    "category": "Rehab",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Rehab Wild Berry Tea.png"]
+  },
+  {
+    "name": "Rehab Strawberry Lemonade",
+    "category": "Rehab",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Rehab Strawberry Lemonade.png"]
+  },
+  {
+    "name": "Java Café Latte",
+    "category": "Java",
+    "flavor": "Coffee",
+    "description": "",
+    "size": "",
+    "images": ["Monster Java Café Latte.png"]
+  },
+  {
+    "name": "Killer Brew Mean Bean",
+    "category": "Killer Brew",
+    "flavor": "Coffee",
+    "description": "",
+    "size": "",
+    "images": ["Monster Killer Brew Mean Bean.png"]
+  },
+  {
+    "name": "Killer Brew Loca Moca",
+    "category": "Killer Brew",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Killer Brew Loca Moca.png"]
+  },
+  {
+    "name": "Java Monster 300 French Vanilla",
+    "category": "Java Monster 300",
+    "flavor": "Coffee",
+    "description": "",
+    "size": "",
+    "images": ["Monster Java Monster 300 French Vanilla.png"]
+  },
+  {
+    "name": "Java Monster 300 Mocha",
+    "category": "Java Monster 300",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Java Monster 300 Mocha.png"]
+  },
+  {
+    "name": "Monster Energy Strawberry Shot",
+    "category": "Classic",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Energy Strawberry Shot.png"]
+  },
+  {
+    "name": "Monster Energy Zero Sugar Strawberry Shot",
+    "category": "Classic",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Energy Zero Sugar Strawberry Shot.png"]
+  },
+  {
+    "name": "Reserve Orange Dreamsicle",
+    "category": "Reserve",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Reserve Orange Dreamsicle.png"]
+  },
+  {
+    "name": "Reserve Peaches n' Crème",
+    "category": "Reserve",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Reserve Peaches n' Crème.png"]
+  },
+  {
+    "name": "Monster Electric Blue",
+    "category": "Monster Energy",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Electric Blue.png"]
+  },
+  {
+    "name": "Monster Orange Dreamsicle",
+    "category": "Monster Energy",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Orange Dreamsicle.png"]
+  },
+  {
+    "name": "Monster Lo-Carb",
+    "category": "Monster Energy",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Lo-Carb.png"]
+  },
+  {
+    "name": "Monster Super-Premium Import",
+    "category": "Monster Energy",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Super-Premium Import.png"]
+  },
+  {
+    "name": "Ultra Punk Punch",
+    "category": "Ultra",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Ultra Punk Punch.png"]
+  },
+  {
+    "name": "Rehab Watermelon",
+    "category": "Rehab",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": [""]
+  },
+  {
+    "name": "Maxx Super Dry",
+    "category": "Maxx",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Maxx Super Dry.png"]
+  },
+  {
+    "name": "Maxx Solaris",
+    "category": "Maxx",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Maxx Solaris.png"]
+  },
+  {
+    "name": "Maxx Eclipse",
+    "category": "Maxx",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Maxx Eclipse.png"]
+  },
+  {
+    "name": "Maxx Rad Red",
+    "category": "Maxx",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Maxx Rad Red.png"]
+  },
+  {
+    "name": "Maxx Mango Matic",
+    "category": "Maxx",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Maxx Mango Matic.png"]
+  },
+  {
+    "name": "Dragon Tea Green Tea",
+    "category": "Dragon Tea",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": [""]
+  },
+  {
+    "name": "Dragon Tea White Tea",
+    "category": "Dragon Tea",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": [""]
+  },
+  {
+    "name": "Rehab White Dragon Tea",
+    "category": "Rehab",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": [""]
+  },
+  {
+    "name": "Java Swiss Chocolate",
+    "category": "Java",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Java Swiss Chocolate.png"]
   }
 ]
