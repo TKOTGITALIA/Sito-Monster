@@ -155,7 +155,8 @@
   },
   {
     "name": "The Doctor",
-    "category": "People",
+    "category": "Special",
+    "category2": "People",
     "flavor": "",
     "description": "",
     "size": "500",
@@ -164,7 +165,8 @@
   },
   {
     "name": "Lando Norris",
-    "category": "People",
+    "category": "Special",
+    "category2": "People",
     "flavor": "Yuzu Melon",
     "description": "",
     "size": "500",
@@ -172,7 +174,8 @@
   },
   {
     "name": "Lewis Hamilton",
-    "category": "People",
+    "category": "Special",
+    "category2": "People",
     "flavor": "",
     "description": "",
     "size": "500",
@@ -180,7 +183,8 @@
   },
   {
     "name": "Lewis Hamilton Zero Sugar",
-    "category": "People",
+    "category": "Special",
+    "category2": "People",
     "flavor": "",
     "description": "",
     "size": "500",
@@ -268,67 +272,67 @@
     "images": ["Monster Ultra Golden Pineapple.png"]
   },
   {
-    "name": "Monster Energy - Black ops 6",
+    "name": "Monster Energy - Call of Duty: Black ops 6",
     "category": "Special",
-    "category2": "Black Ops 6",
+    "category2": "Call of Duty",
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".png"]
+    "images": ["Monster Energy - Call of Duty Black Ops 6.png"]
   },
   {
-    "name": "Monster Energy - Black Ops 7",
+    "name": "Monster Energy - Call of Duty: Black Ops 7",
     "category": "Special",
-    "category2": "Black Ops 7",
+    "category2": "Call of Duty",
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".png"]
+    "images": ["Monster Energy - Call of Duty Black Ops 7.png"]
   },
   {
-    "name": "Ultra White - Black Ops 7",
+    "name": "Ultra White - Call of Duty: Black Ops 7",
     "category": "Special",
-    "category2": "Black Ops 7",
+    "category2": "Call of Duty",
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".png"]
+    "images": ["Monster Ultra White - Call of Duty Black Ops 7.png"]
   },
   {
-    "name": "Mango Loco - Black Ops 7",
+    "name": "Juiced Mango Loco - Call of Duty: Black Ops 7",
     "category": "Special",
-    "category2": "Black Ops 7",
+    "category2": "Call of Duty",
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".png"]
+    "images": ["Monster Juiced Mango Loco - Call of Duty Black Ops 7.png"]
   },
   {
-    "name": "Ultra White - Black Ops 6",
+    "name": "Ultra White - Call of Duty: Black Ops 6",
     "category": "Special",
-    "category2": "Black Ops 6",
+    "category2": "Call of Duty",
     "flavor": "",
     "description": "",
     "size": "",
-    "images": [".png"]
+    "images": ["Monster Ultra White - Call of Duty Black Ops 6.png"]
   },
   {
-    "name": "Monster Energy Zero Sugar - Black Ops 6",
+    "name": "Monster Energy Zero Sugar - Call of Duty: Black Ops 6",
     "category": "Special",
-    "category2": "Black Ops 6",
+    "category2": "Call of Duty",
     "flavor": "",
     "description": "",
     "size": "",
-    "images": [".png"]
+    "images": ["Monster Energy Zero Sugar - Call of Duty Black Ops 6.png"]
   },
   {
-    "name": "Monster Energy Zero Sugar - Black Ops 7",
+    "name": "Monster Energy Zero Sugar - Call of Duty: Black Ops 7",
     "category": "Special",
-    "category2": "Black Ops 7",
+    "category2": "Call of Duty",
     "flavor": "",
     "description": "",
     "size": "",
-    "images": [".png"]
+    "images": ["Monster Energy Zero Sugar - Call of Duty Black Ops 7.png"]
   },
   {
     "name": "Ultra Black",
@@ -373,7 +377,8 @@
   },
   {
     "name": "The Doctor Zero Sugar",
-    "category": "People",
+    "category": "Special",
+    "category2": "People",
     "flavor": "",
     "description": "",
     "size": "500",
@@ -600,7 +605,7 @@
     "images": ["Monster Reserve Peaches n' Crème.png"]
   },
   {
-    "name": "Monster Electric Blue",
+    "name": "Monster Energy Electric Blue",
     "category": "Monster Energy",
     "flavor": "",
     "description": "",
@@ -608,7 +613,7 @@
     "images": ["Monster Electric Blue.png"]
   },
   {
-    "name": "Monster Orange Dreamsicle",
+    "name": "Monster Energy Orange Dreamsicle",
     "category": "Monster Energy",
     "flavor": "",
     "description": "",
@@ -616,7 +621,7 @@
     "images": ["Monster Orange Dreamsicle.png"]
   },
   {
-    "name": "Monster Lo-Carb",
+    "name": "Monster Energy Lo-Carb",
     "category": "Monster Energy",
     "flavor": "",
     "description": "",
@@ -624,7 +629,7 @@
     "images": ["Monster Lo-Carb.png"]
   },
   {
-    "name": "Monster Super-Premium Import",
+    "name": "Monster Energy Super-Premium Import",
     "category": "Monster Energy",
     "flavor": "",
     "description": "",
@@ -1015,5 +1020,95 @@
     "description": "",
     "size": "",
     "images": ["Monster Rehab Green Tea 2.png"]
+  },
+  {
+    "name": "Monster Energy - Call of Duty: Ghosts",
+    "category": "Special",
+    "category2": "Call of Duty",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Energy - Call of Duty Ghosts.png"]
+  },
+  {
+    "name": "Monster Energy Lo-Carb - Call of Duty: Ghosts",
+    "category": "Special",
+    "category2": "Call of Duty",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Energy Lo-Carb  - Call of Duty Ghosts.png"]
+  },
+  {
+    "name": "Monster Energy - Call of Duty: Black Ops 4",
+    "category": "Special",
+    "category2": "Call of Duty",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Energy - Call of Duty Black Ops 4.png"]
+  },
+  {
+    "name": "Monster Energy - Call of Duty: Modern Warfare 3",
+    "category": "Special",
+    "category2": "Call of Duty",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Energy - Call of Duty Modern Warfare 3.png"]
+  },
+  {
+    "name": "Ultra White - Call of Duty: Modern Warfare 3",
+    "category": "Special",
+    "category2": "Call of Duty",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Ultra White - Call of Duty Modern Warfare 3.png"]
+  },
+  {
+    "name": "Juiced Mango Loco - Call of Duty: Modern Warfare 3",
+    "category": "Special",
+    "category2": "Call of Duty",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Juiced Mango Loco - Call of Duty Modern Warfare 3.png"]
+  },
+  {
+    "name": "Monster Energy - Call of Duty: Black Ops 3",
+    "category": "Special",
+    "category2": "Call of Duty",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Energy - Call of Duty Black Ops 3.png"]
+  },
+  {
+    "name": "Monster Energy Jamie Whincup",
+    "category": "Special",
+    "category2": "People",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": ["Monster Energy Jamie Whincup.png"]
+  },
+  {
+    "name": "Monster Energy Vans Warped Tour 2007 Tour Water",
+    "category": "Special",
+    "category2": "Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Energy Vans Warped Tour 2007 Tour Water.png"]
+  },
+  {
+    "name": "Monster Energy Assault - Call of Duty: Modern Warfare 2",
+    "category": "Special",
+    "category2": "Call of Duty",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Energy Assault - Call of Duty Modern Warfare 2.png"]
   }
 ]
