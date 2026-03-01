@@ -3,7 +3,7 @@
     "name": "Monster Energy",
     "category": "Classic",
     "flavor": "Sweet and Salty",
-    "description": "",
+    "description": "Tear into a can of the meanest energy drink on the planet, Monster Energy.<br>It's the ideal combo of the right ingredients in the right proportion to deliver the big bad buzz that only Monster can.<br>Monster packs a powerful punch but has a smooth easy drinking flavor.<br>Athletes, musicians, anarchists, co-ed's, road warriors, metal heads, geeks, hipsters, and bikers dig it - you will too.<br>Unleash the Beast!",
     "size": "500",
     "size2": "355",
     "images": ["Monster Energy 500ml.png"]
@@ -12,7 +12,7 @@
     "name": "Monster Energy Zero Sugar",
     "category": "Classic",
     "flavor": "Sweet and Salty",
-    "description": "",
+    "description": "People have been blowin' up our inbox for years asking for a zero sugar Monster. We got it, but this ain't soda pop, dude!<br>Making a zero sugar drink, that's good enough to earn the Monster M ain't that easy.<br>Finally with a re-tooled energy blend, new sweetener system and after hundreds of failed flavors, we got it right!<br>Monster Zero Sugar with B vitamins and caffeine to motivate you to work (I mean play) harder, so generally you feel pretty damn good.<br>Zero Sugar, more Monster MAGIC...<br>Unleash the Beast!",
     "size": "500",
     "images": ["Monster Energy Zero Sugar.png"]
   },
@@ -20,7 +20,7 @@
     "name": "Rio Punch",
     "category": "Punch",
     "flavor": "Sweet papaya, vanilla ice cream, hint of black currant",
-    "description": "",
+    "description": "Brazil does it big. It's home to over 70% of all fruits ever known. Throw-in the world's largest party, Carnival in Rio de Janeiro and you get some epic inspiration!<br>Juice Monster Rio Punch is a totally new taste sensation. It's a blend of exotic fruit flavors with a hint of spice, that's fully loaded with our world-famous Monster energy blend.<br>From the store of Copacabana Beach to the top of Sugarloaf Mountain, Rio Punch will have you partying in the night.<br>Unleash the Beast!",
     "size": "500",
     "images": ["Monster Punch Rio Punch.png"]
   },
@@ -46,7 +46,7 @@
     "flavor": "",
     "description": "",
     "size": "473",
-    "images": [".png"]
+    "images": ["Monster Dragon Ice Tea Lemon.png"]
   },
   {
     "name": "Java Salted Caramel",
@@ -349,10 +349,10 @@
   {
     "name": "Dragon Ice Tea Peach",
     "category": "Dragon Ice Tea",
-    "flavor": "",
+    "flavor": "Peach",
     "description": "",
     "size": "473",
-    "images": [".png"]
+    "images": ["Monster Dragon Ice Tea Peach.png"]
   },
   {
     "name": "Ultra Rosa",
@@ -368,6 +368,7 @@
     "flavor": "",
     "description": "",
     "size": "473",
+    "size2": "355",
     "images": ["Monster Ultra Blue Hawaiian.png"]
   },
   {
@@ -391,8 +392,8 @@
     "category": "Ultra",
     "flavor": "",
     "description": "",
-    "size": "",
-    "images": [".png"]
+    "size": "473",
+    "images": ["Monster Ultra Fiesta.png"]
   },
   {
     "name": "Ultra Sunrise",
@@ -424,7 +425,8 @@
     "category": "Ultra",
     "flavor": "",
     "description": "",
-    "size": "",
+    "size": "473",
+    "size2": "355",
     "images": ["Monster Ultra Wild Passion.png"]
   },
   {
@@ -473,7 +475,7 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": [".jpg"]
+    "images": ["Monster Reserve Watermelon.png"]
   },
   {
     "name": "Ultra White - Apex Legends",
@@ -551,7 +553,7 @@
   },
   {
     "name": "Java Monster 300 French Vanilla",
-    "category": "Java Monster 300",
+    "category": "Java",
     "flavor": "Coffee",
     "description": "",
     "size": "",
@@ -559,7 +561,7 @@
   },
   {
     "name": "Java Monster 300 Mocha",
-    "category": "Java Monster 300",
+    "category": "Java",
     "flavor": "",
     "description": "",
     "size": "",
@@ -691,7 +693,7 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": [""]
+    "images": ["Dragon Tea Green Tea.png"]
   },
   {
     "name": "Dragon Tea White Tea",
@@ -699,7 +701,7 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": [""]
+    "images": ["Monster Dragon Tea White Tea.png"]
   },
   {
     "name": "Rehab White Dragon Tea",
@@ -707,7 +709,7 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": [""]
+    "images": ["Monster Rehab White Dragon Tea.png"]
   },
   {
     "name": "Java Swiss Chocolate",
@@ -716,5 +718,302 @@
     "description": "",
     "size": "",
     "images": ["Monster Java Swiss Chocolate.png"]
+  },
+  {
+    "name": "Monster Energy Assault",
+    "category": "Special",
+    "category2": "Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Energy Assault.png"]
+  },
+  {
+    "name": "Java Vanilla Light",
+    "category": "Java",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Java Vanilla Light.png"]
+  },
+  {
+    "name": "Java Kona Blend",
+    "category": "Java",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Java Kona Blend.png"]
+  },
+  {
+    "name": "Java Farmer's Oats",
+    "category": "Java",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Java Farmer's Oats.png"]
+  },
+  {
+    "name": "Java Oatmilk",
+    "category": "Java",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Java Oatmilk.png"]
+  },
+  {
+    "name": "Rehab Pink Lemonade",
+    "category": "Rehab",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Rehab Pink Lemonade.png"]
+  },
+  {
+    "name": "X-presso Hammer",
+    "category": "X-presso",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster X-presso Hammer.png"]
+  },
+  {
+    "name": "X-presso Midnite",
+    "category": "X-presso",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": [""]
+  },
+  {
+    "name": "Monster Energy Cuba-Lima",
+    "category": "Special",
+    "category2":"Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Cuba-Lima.png"]
+  },
+  {
+    "name": "Punch Mad Dog",
+    "category": "Punch",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Punch Mad Dog.png"]
+  },
+  {
+    "name": "Punch Baller's Blend",
+    "category": "Punch",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Punch Baller's Blend.png"]
+  },
+  {
+    "name": "Monster Energy Khaos",
+    "category": "Special",
+    "category2":"Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Khaos.png"]
+  },
+  {
+    "name": "Monster Energy Gronk",
+    "category": "Special",
+    "category2": "Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Gronk.png"]
+  },
+  {
+    "name": "Monster Energy Übermonster",
+    "category": "Special",
+    "category2": "Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Übermonster.png"]
+  },
+  {
+    "name": "Monster Energy M80",
+    "category": "Special",
+    "category2": "Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster M80.png"]
+  },
+  {
+    "name": "Monster Energy Unleaded",
+    "category": "Special",
+    "category2": "Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Unleaded.png"]
+  },
+  {
+    "name": "Java Lo-Ball",
+    "category": "Java",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Lo-Ball.png"]
+  },
+  {
+    "name": "Java Chai Hat",
+    "category": "Java",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Chai Hat.png"]
+  },
+  {
+    "name": "Java Nut Up",
+    "category": "Java",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Nut Up.png"]
+  },
+  {
+    "name": "Java Russian",
+    "category": "Java",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Russian.png"]
+  },
+  {
+    "name": "Java Irish Blend",
+    "category": "Java",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Java Irish Blend.png"]
+  },
+  {
+    "name": "Java Loca Moca (old)",
+    "category": "Java",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Java Loca Moca (old).png"]
+  },
+  {
+    "name": "Java Mean Bean (old)",
+    "category": "Java",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Java Mean Bean (old).png"]
+  },
+  {
+    "name": "Java Big Black",
+    "category": "Java",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Java Big Black.png"]
+  },
+  {
+    "name": "Java Cappuccino",
+    "category": "Java",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Java Cappuccino.png"]
+  },
+  {
+    "name": "Java Vanilla Light (old)",
+    "category": "Java",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Java Vanilla Light (old).png"]
+  },
+  {
+    "name": "Java Toffee",
+    "category": "Java",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Java Toffee.png"]
+  },
+  {
+    "name": "Java Originale",
+    "category": "Java",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Java Originale.png"]
+  },
+  {
+    "name": "Monster Energy Ghost M-100",
+    "category": "Special",
+    "category2": "Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Energy Ghost M-100.png"]
+  },
+  {
+    "name": "Monster Energy Phantom M-100",
+    "category": "Special",
+    "category2": "Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Energy Phantom M-100.png"]
+  },
+  {
+    "name": "Juiced Papillon",
+    "category": "Juiced",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Juiced Papillon.png"]
+  },
+  {
+    "name": "Juiced Mariposa",
+    "category": "Juiced",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Juiced Mariposa.png"]
+  },
+  {
+    "name": "Java Kona Cappuccino",
+    "category": "Java",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Java Kona Cappuccino.png"]
+  },
+  {
+    "name": "Rehab Green Tea",
+    "category": "Rehab",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Rehab Green Tea 2.png"]
   }
 ]
