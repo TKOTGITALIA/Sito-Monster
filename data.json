@@ -89,9 +89,38 @@
     "name": "Java Mean Bean",
     "category": "Java",
     "flavor": "Vanilla Bean",
-    "description": "",
-    "size": "444",
-    "images": ["Monster Java Mean Bean.png"]
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Java Mean Bean.png",
+      "size": "444",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Java Mean Bean 2.png",
+      "size": "444",
+      "description": ""
+    },
+    {
+      "variantName": "Small",
+      "image": "Monster Java Mean Bean 355 ml.png",
+      "size": "355",
+      "description": ""
+    },
+    {
+      "variantName": "Old Version 1",
+      "image": "Monster Java Mean Bean Old.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Old Version 2",
+      "image": "Monster Java Mean Bean Old 2.png",
+      "size": "",
+      "description": ""
+    }
+  ]
   },
   {
     "name": "Java Irish Crème",
@@ -1051,15 +1080,6 @@
     "description": "",
     "size": "",
     "images": ["Monster Java Loca Moca (old).png"]
-  },
-  {
-    "name": "Java Mean Bean (old)",
-    "category": "Java",
-    "category2": "",
-    "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Java Mean Bean (old).png"]
   },
   {
     "name": "Java Big Black",
