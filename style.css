@@ -400,3 +400,43 @@ button {
     padding: 0 15px;
     text-align: justify;
 }
+.variant-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.variant-img {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+
+.slider-btn {
+    background: #333;
+    color: #32cd32;
+    border: 1px solid #32cd32;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.add-variant-btn {
+    background-color: #000;
+    color: #32cd32;
+    border: 1px solid #32cd32;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.add-variant-btn.owned {
+    background-color: #32cd32;
+    color: #000;
+}

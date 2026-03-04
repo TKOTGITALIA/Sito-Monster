@@ -14,6 +14,7 @@ const db = firebase.firestore();
 let currentUser = null;
 let monsterList = [];
 let ownedMonsters = new Set();
+let currentVariantIndex = 0;
 
 const loginBtn = document.getElementById('login-btn');
 const logoutBtn = document.getElementById('logout-btn');
@@ -71,15 +72,14 @@ async function loadMonsters() {
 
 function renderMonsters() {
     const container = document.getElementById('container');
+    if (!container) return;
     container.innerHTML = "";
     const categories = {};
 
     monsterList.forEach(m => {
         if (!categories[m.category]) categories[m.category] = {};
-        
         const subCat = m.category2 || "General";
         if (!categories[m.category][subCat]) categories[m.category][subCat] = [];
-        
         categories[m.category][subCat].push(m);
     });
 
@@ -106,12 +106,9 @@ function renderMonsters() {
         sortedSubCategories.forEach(subCat => {
             const subSection = document.createElement('div');
             subSection.className = 'sub-category-group';
-            
-            if (subCat !== "General") {
-                subSection.innerHTML = `<h3 class="sub-category-title" style="color: #888; margin-left: 10px; text-transform: uppercase; font-size: 0.9rem;">${subCat}</h3><div class="monster-grid"></div>`;
-            } else {
-                subSection.innerHTML = `<div class="monster-grid"></div>`;
-            }
+            subSection.innerHTML = subCat !== "General" ? 
+                `<h3 class="sub-category-title" style="color: #888; margin-left: 10px; text-transform: uppercase; font-size: 0.9rem;">${subCat}</h3><div class="monster-grid"></div>` : 
+                `<div class="monster-grid"></div>`;
 
             const grid = subSection.querySelector('.monster-grid');
 
@@ -126,54 +123,28 @@ function renderMonsters() {
             });
 
             categories[cat][subCat].forEach(m => {
-                const isOwned1 = ownedMonsters.has(`${m.name}_${m.size}ml`);
-                const isOwned2 = m.size2 ? ownedMonsters.has(`${m.name}_${m.size2}ml`) : false;
-
+                const isOwnedGeneric = ownedMonsters.has(m.name);
                 const card = document.createElement('div');
-                card.className = `monster-card ${(isOwned1 || isOwned2) ? 'owned' : ''}`;
-
-                let statusHtml = "";
-                if (m.size2) {
-                    statusHtml = `
-                        <div class="dual-status-container">
-                            <div class="status-container" data-size="${m.size}">
-                                <input type="checkbox" ${isOwned1 ? 'checked' : ''}>
-                                <span class="status-text">${m.size}<span class="size-label">ml</span></span>
-                            </div>
-                            <div class="status-container" data-size="${m.size2}">
-                                <input type="checkbox" ${isOwned2 ? 'checked' : ''}>
-                                <span class="status-text">${m.size2}<span class="size-label">ml</span></span>
-                            </div>
-                        </div>`;
-                } else {
-                    statusHtml = `
-                        <div class="status-container" data-size="${m.size}">
-                            <input type="checkbox" ${isOwned1 ? 'checked' : ''}>
-                            <span class="status-text">IN COLLECTION</span>
-                        </div>`;
-                }
+                card.className = `monster-card ${isOwnedGeneric ? 'owned' : ''}`;
 
                 card.innerHTML = `
                     <div class="card-click-area">
-                        <img src="img/${m.images[0]}">
+                        <img src="img/${m.variants ? m.variants[0].image : m.images[0]}">
                     </div>
                     <h3>${m.name}</h3>
-                    ${statusHtml}`;
+                    <div class="status-container">
+                        <input type="checkbox" ${isOwnedGeneric ? 'checked' : ''}>
+                        <span class="status-text">IN COLLECTION</span>
+                    </div>`;
 
                 card.querySelector('.card-click-area').onclick = () => openModal(m);
 
-                const statusBtns = card.querySelectorAll('.status-container');
-                statusBtns.forEach(btn => {
-                    btn.onclick = (e) => {
-                        e.stopPropagation();
-                        const check = btn.querySelector('input');
-                        const selectedSize = btn.getAttribute('data-size');
-                        if (e.target !== check) check.checked = !check.checked;
-                        const identifier = `${m.name}_${selectedSize}ml`;
-                        const monsterVariant = { ...m, fullName: identifier, actualSize: selectedSize };
-                        toggleOwnership(monsterVariant, check.checked);
-                    };
-                });
+                card.querySelector('.status-container').onclick = (e) => {
+                    e.stopPropagation();
+                    const check = e.currentTarget.querySelector('input');
+                    if (e.target !== check) check.checked = !check.checked;
+                    toggleOwnership({ fullName: m.name, name: m.name }, check.checked);
+                };
 
                 grid.appendChild(card);
             });
@@ -184,135 +155,97 @@ function renderMonsters() {
 }
 
 function openModal(m) {
-    const isOwned1 = ownedMonsters.has(`${m.name}_${m.size}ml`);
-    const isOwned2 = m.size2 ? ownedMonsters.has(`${m.name}_${m.size2}ml`) : false;
-
-    let statusHtml = "";
-    if (m.size2) {
-        statusHtml = `
-            <div class="dual-status-container" style="margin-top:20px; border:1px solid #333; border-radius:8px;">
-                <div class="status-container" data-size="${m.size}">
-                    <input type="checkbox" ${isOwned1 ? 'checked' : ''}>
-                    <span class="status-text">${m.size}ml</span>
-                </div>
-                <div class="status-container" data-size="${m.size2}">
-                    <input type="checkbox" ${isOwned2 ? 'checked' : ''}>
-                    <span class="status-text">${m.size2}ml</span>
-                </div>
-            </div>
-        `;
-    } else {
-        statusHtml = `
-            <div class="status-container" data-size="${m.size}" style="margin-top:20px; border:1px solid #333; border-radius:8px;">
-                <input type="checkbox" ${isOwned1 ? 'checked' : ''}>
-                <span class="status-text">IN COLLECTION (${m.size}ml)</span>
-            </div>
-        `;
-    }
-
-    document.getElementById('modal-body').innerHTML = `
-        <img src="img/${m.images[0]}" style="width:120px; margin-bottom:15px;">
-        <h2 style="color:#32cd32; margin-bottom:5px;">${m.name}</h2>
-        <p style="margin-bottom:15px;">Category: <strong>${m.category}</strong></p>
-        ${statusHtml}
-    `;
-
-    const modalBtns = document.querySelectorAll('#modal-body .status-container');
-    modalBtns.forEach(btn => {
-        btn.onclick = () => {
-            const check = btn.querySelector('input');
-            const selectedSize = btn.getAttribute('data-size');
-            check.checked = !check.checked;
-            
-            const monsterVariant = { ...m, fullName: `${m.name}_${selectedSize}ml`, actualSize: selectedSize };
-            toggleOwnership(monsterVariant, check.checked);
-        };
-    });
-
+    currentVariantIndex = 0;
+    renderModalContent(m);
     modal.style.display = "block";
 }
 
-async function toggleOwnership(m, shouldOwn) {
-    const identifier = m.fullName || `${m.name}_${m.size}ml`;
+function renderModalContent(m) {
+    const variants = m.variants || [{ 
+        variantName: "Standard", 
+        image: m.images ? m.images[0] : "", 
+        size: m.size || "500", 
+        description: m.description || "" 
+    }];
     
+    const v = variants[currentVariantIndex];
+    const isGenericOwned = ownedMonsters.has(m.name);
+    const isVariantOwned = ownedMonsters.has(`${m.name}_${v.variantName}`);
+
+    let flavorHtml = (m.flavor && m.flavor.trim() !== "") ? `<p class="modal-flavor">Flavor: <strong>${m.flavor}</strong></p>` : "";
+
+    document.getElementById('modal-body').innerHTML = `
+        <div class="variant-slider">
+            <button class="slider-btn" id="prevVar"><</button>
+            <img src="img/${v.image}" class="variant-img">
+            <button class="slider-btn" id="nextVar">></button>
+        </div>
+        <h2 style="color:#32cd32;">${m.name}</h2>
+        <p style="color: #888; font-size: 0.8rem;">${v.variantName} - ${v.size}ml</p>
+        
+        <button class="add-variant-btn ${isVariantOwned ? 'owned' : ''}" id="toggleVariant">
+            ${isVariantOwned ? '✓ VARIANT IN COLLECTION' : '+ ADD THIS VERSION'}
+        </button>
+
+        ${flavorHtml}
+        <p class="modal-description">${v.description}</p>
+        
+        <div class="status-container ${isGenericOwned ? 'owned' : ''}" id="toggleGeneric" style="margin-top:20px; border:1px solid #333; border-radius:8px;">
+             <input type="checkbox" ${isGenericOwned ? 'checked' : ''}>
+             <span class="status-text">GENERIC POSSESSION</span>
+        </div>
+    `;
+
+    document.getElementById('prevVar').onclick = () => {
+        currentVariantIndex = (currentVariantIndex > 0) ? currentVariantIndex - 1 : variants.length - 1;
+        renderModalContent(m);
+    };
+
+    document.getElementById('nextVar').onclick = () => {
+        currentVariantIndex = (currentVariantIndex < variants.length - 1) ? currentVariantIndex + 1 : 0;
+        renderModalContent(m);
+    };
+
+    document.getElementById('toggleVariant').onclick = () => {
+        const id = `${m.name}_${v.variantName}`;
+        toggleOwnership({ fullName: id, name: m.name, variantName: v.variantName, actualSize: v.size }, !isVariantOwned);
+        renderModalContent(m);
+    };
+
+    document.getElementById('toggleGeneric').onclick = () => {
+        toggleOwnership({ fullName: m.name, name: m.name }, !isGenericOwned);
+        renderModalContent(m);
+    };
+}
+
+async function toggleOwnership(m, shouldOwn) {
+    const identifier = m.fullName;
+    
+    if (shouldOwn) {
+        ownedMonsters.add(identifier);
+    } else {
+        ownedMonsters.delete(identifier);
+    }
+
     if (currentUser) {
         const colRef = db.collection("monster_collections").doc(currentUser.uid).collection("owned");
         try {
             if (shouldOwn) {
-                await colRef.add({ 
+                await colRef.doc(identifier).set({ 
                     name: identifier, 
                     baseName: m.name,
-                    size: m.actualSize || m.size,
+                    size: m.actualSize || "",
+                    variantName: m.variantName || "Generic",
                     dateAdded: firebase.firestore.FieldValue.serverTimestamp() 
                 });
             } else {
-                const query = await colRef.where("name", "==", identifier).get();
-                const batch = db.batch();
-                query.forEach(doc => batch.delete(doc.ref));
-                await batch.commit();
+                await colRef.doc(identifier).delete();
             }
         } catch (e) {
             console.error("Firebase Error:", e);
         }
     } else {
-        let localData = JSON.parse(localStorage.getItem('myMonsters')) || [];
-        if (shouldOwn) {
-            if (!localData.includes(identifier)) localData.push(identifier);
-        } else {
-            localData = localData.filter(name => name !== identifier);
-        }
-        localStorage.setItem('myMonsters', JSON.stringify(localData));
-        ownedMonsters = new Set(localData);
+        localStorage.setItem('myMonsters', JSON.stringify(Array.from(ownedMonsters)));
         renderMonsters();
     }
-}
-function openModal(m) {
-    const isOwned1 = ownedMonsters.has(`${m.name}_${m.size}ml`);
-    const isOwned2 = m.size2 ? ownedMonsters.has(`${m.name}_${m.size2}ml`) : false;
-
-    let flavorHtml = (m.flavor && m.flavor.trim() !== "") ? `<p class="modal-flavor">Flavor: <strong>${m.flavor}</strong></p>` : "";
-    let descriptionHtml = (m.description && m.description.trim() !== "") ? `<p class="modal-description">${m.description}</p>` : "";
-
-    let statusHtml = "";
-    if (m.size2) {
-        statusHtml = `
-            <div class="dual-status-container" style="margin-top:20px; border:1px solid #333; border-radius:8px;">
-                <div class="status-container" data-size="${m.size}">
-                    <input type="checkbox" ${isOwned1 ? 'checked' : ''}>
-                    <span class="status-text">${m.size}ml</span>
-                </div>
-                <div class="status-container" data-size="${m.size2}">
-                    <input type="checkbox" ${isOwned2 ? 'checked' : ''}>
-                    <span class="status-text">${m.size2}ml</span>
-                </div>
-            </div>`;
-    } else {
-        statusHtml = `
-            <div class="status-container" data-size="${m.size}" style="margin-top:20px; border:1px solid #333; border-radius:8px;">
-                <input type="checkbox" ${isOwned1 ? 'checked' : ''}>
-                <span class="status-text">IN COLLECTION (${m.size}ml)</span>
-            </div>`;
-    }
-
-    document.getElementById('modal-body').innerHTML = `
-        <img src="img/${m.images[0]}" style="width:120px; margin-bottom:15px;" onerror="this.src='https://via.placeholder.com/150?text=No+Image'">
-        <h2 style="color:#32cd32; margin-bottom:10px;">${m.name}</h2>
-        <p style="margin-bottom:5px; font-size: 0.9rem; color: #888;">Category: <strong>${m.category}</strong></p>
-        ${flavorHtml}
-        ${descriptionHtml}
-        ${statusHtml}`;
-
-    const modalBtns = document.querySelectorAll('#modal-body .status-container');
-    modalBtns.forEach(btn => {
-        btn.onclick = () => {
-            const check = btn.querySelector('input');
-            const selectedSize = btn.getAttribute('data-size');
-            check.checked = !check.checked;
-            
-            const identifier = `${m.name}_${selectedSize}ml`;
-            toggleOwnership({ ...m, fullName: identifier, actualSize: selectedSize }, check.checked);
-        };
-    });
-
-    modal.style.display = "block";
 }

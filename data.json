@@ -3,10 +3,20 @@
     "name": "Monster Energy",
     "category": "Classic",
     "flavor": "Sweet and Salty",
-    "description": "Tear into a can of the meanest energy drink on the planet, Monster Energy.<br>It's the ideal combo of the right ingredients in the right proportion to deliver the big bad buzz that only Monster can.<br>Monster packs a powerful punch but has a smooth easy drinking flavor.<br>Athletes, musicians, anarchists, co-ed's, road warriors, metal heads, geeks, hipsters, and bikers dig it - you will too.<br>Unleash the Beast!",
-    "size": "500",
-    "size2": "355",
-    "images": ["Monster Energy 500ml.png"]
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Monster Energy 500ml.png",
+      "size": "500",
+      "description": "Tear into a can of the meanest energy drink on the planet, Monster Energy.<br>It's the ideal combo of the right ingredients in the right proportion to deliver the big bad buzz that only Monster can.<br>Monster packs a powerful punch but has a smooth easy drinking flavor.<br>Athletes, musicians, anarchists, co-ed's, road warriors, metal heads, geeks, hipsters, and bikers dig it - you will too.<br>Unleash the Beast!"
+    },
+    {
+      "variantName": "Small",
+      "image": "Monster Energy 355ml.png",
+      "size": "355",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Monster Energy Zero Sugar",
@@ -36,9 +46,20 @@
     "name": "Pipeline Punch",
     "category": "Punch",
     "flavor": "Passion Fruit, Orange, and Guava",
-    "description": "",
-    "size": "500",
-    "images": ["Monster Punch Pipeline Punch.png"]
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Monster Punch Pipeline Punch.png",
+      "size": "500",
+      "description": ""
+    },
+    {
+      "variantName": "Small",
+      "image": "Monster Punch Pipeline Punch 355ml.png",
+      "size": "",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Dragon Ice Tea Lemon",
@@ -101,9 +122,26 @@
     "name": "Juiced Monarch",
     "category": "Juiced",
     "flavor": "",
-    "description": "",
-    "size": "500",
-    "images": ["Monster Juiced Monarch.png"]
+    "variants": [
+    {
+      "variantName": "Monarch",
+      "image": "Monster Juiced Monarch.png",
+      "size": "500",
+      "description": ""
+    },
+    {
+      "variantName": "Papillon",
+      "image": "Monster Juiced Papillon.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Mariposa",
+      "image": "Monster Juiced Mariposa.png",
+      "size": "",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Juiced Aussie Style Lemonade",
@@ -154,17 +192,27 @@
     "images": ["Monster Nitro Cosmic Peach.png"]
   },
   {
-    "name": "The Doctor",
+    "name": "Monster The Doctor",
     "category": "Special",
     "category2": "People",
     "flavor": "",
-    "description": "",
-    "size": "500",
-    "size2": "355",
-    "images": [".jpg"]
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Monster The Doctor 500ml.png",
+      "size": "500",
+      "description": ""
+    },
+    {
+      "variantName": "Small",
+      "image": "Monster The Doctor 355ml.png",
+      "size": "",
+      "description": ""
+    }
+    ]
   },
   {
-    "name": "Lando Norris",
+    "name": "Monster Lando Norris",
     "category": "Special",
     "category2": "People",
     "flavor": "Yuzu Melon",
@@ -173,22 +221,22 @@
     "images": ["Monster Lando Norris.png"]
   },
   {
-    "name": "Lewis Hamilton",
+    "name": "Monster Lewis Hamilton",
     "category": "Special",
     "category2": "People",
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Lewis Hamilton.png"]
   },
   {
-    "name": "Lewis Hamilton Zero Sugar",
+    "name": "Monster Lewis Hamilton Zero Sugar",
     "category": "Special",
     "category2": "People",
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": [".jpg"]
+    "images": ["Monster Lewis Hamilton Zero Sugar"]
   },
   {
     "name": "Full Throttle",
@@ -202,18 +250,75 @@
     "name": "Zero Ultra",
     "category": "Ultra",
     "flavor": "Light Refreshing Citrus",
-    "description": "",
-    "size": "500",
-    "size2": "355",
-    "images": ["Monster Zero Ultra.png"]
+    "variants": [
+    {
+      "variantName": "Zero Ultra",
+      "image": "Monster Zero Ultra.png",
+      "size": "500",
+      "description": ""
+    },
+    {
+      "variantName": "Ultra",
+      "image": "Monster Ultra White 500ml.png",
+      "size": "500",
+      "description": ""
+    },
+    {
+      "variantName": "Ultra (small)",
+      "image": "Monster Ultra White 355ml.png",
+      "size": "355",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Ultra Violet",
     "category": "Ultra",
     "flavor": "Light Citrus and Grape",
-    "description": "",
-    "size": "500",
-    "images": ["Monster Ultra Violet.png"]
+    "variants": [
+    {
+      "variantName": "Normal (500 ml)",
+      "image": "Monster Ultra Violet 500 ml.png",
+      "size": "500",
+      "description": ""
+    },
+    {
+      "variantName": "Normal (Violet top - 500 ml)",
+      "image": "Monster Ultra Violet.png",
+      "size": "500",
+      "description": ""
+    },
+    {
+      "variantName": "Normal (473 ml)",
+      "image": "Monster Ultra Violet 473 ml.png",
+      "size": "473",
+      "description": ""
+    },
+    {
+      "variantName": "Normal (Violet top - 473 ml)",
+      "image": "Monster Ultra Violet 473 ml Violet top.png",
+      "size": "473",
+      "description": ""
+    },
+    {
+      "variantName": "Normal (Blue - 473 ml)",
+      "image": "Monster Ultra Violet 473 ml Blue.png",
+      "size": "473",
+      "description": ""
+    },
+    {
+      "variantName": "Large",
+      "image": "Monster Ultra Violet Cap.png",
+      "size": "710",
+      "description": ""
+    },
+    {
+      "variantName": "Small",
+      "image": "Monster Ultra Violet 355 ml.png",
+      "size": "355",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Ultra Fantasy Ruby Red",
@@ -376,7 +481,7 @@
     "images": ["Monster Ultra Blue Hawaiian.png"]
   },
   {
-    "name": "The Doctor Zero Sugar",
+    "name": "Monster The Doctor Zero Sugar",
     "category": "Special",
     "category2": "People",
     "flavor": "",
@@ -487,9 +592,20 @@
     "category": "Special",
     "category2": "Other",
     "flavor": "",
-    "description": "",
-    "size": "",
-    "images": [".jpg"]
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Energy Apex Legends 1.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Energy Apex Legends 2.png",
+      "size": "",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Mule Ginger Brew",
@@ -855,9 +971,32 @@
     "category": "Special",
     "category2": "Other",
     "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Unleaded.png"]
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Energy Unleaded 1.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Energy Unleaded 2.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 3",
+      "image": "Monster Energy Unleaded 3.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 4",
+      "image": "Monster Energy Unleaded 4.png",
+      "size": "",
+      "description": ""
+    }
+  ]
   },
   {
     "name": "Java Lo-Ball",
@@ -986,22 +1125,6 @@
     "images": ["Monster Energy Phantom M-100.png"]
   },
   {
-    "name": "Juiced Papillon",
-    "category": "Juiced",
-    "category2": "",
-    "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Juiced Papillon.png"]
-  },
-  {
-    "name": "Juiced Mariposa",
-    "category": "Juiced",
-    "category2": "",
-    "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Juiced Mariposa.png"]
   },
   {
     "name": "Java Kona Cappuccino",
@@ -1085,7 +1208,7 @@
     "images": ["Monster Energy - Call of Duty Black Ops 3.png"]
   },
   {
-    "name": "Monster Energy Jamie Whincup",
+    "name": "Monster Jamie Whincup",
     "category": "Special",
     "category2": "People",
     "flavor": "",
