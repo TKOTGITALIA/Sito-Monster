@@ -81,9 +81,20 @@
     "name": "Java Loca Moca",
     "category": "Java",
     "flavor": "Chocolate Mocha",
-    "description": "",
-    "size": "444",
-    "images": ["Monster Java Loca Moca.png"]
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Monster Java Loca Moca.png",
+      "size": "444",
+      "description": ""
+    },
+    {
+      "variantName": "Old",
+      "image": "Monster Java Loca Moca Old.png",
+      "size": "444",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Java Mean Bean",
@@ -92,13 +103,13 @@
     "variants": [
     {
       "variantName": "Version 1",
-      "image": "Monster Java Mean Bean.png",
+      "image": "Monster Java Mean Bean 2.png",
       "size": "444",
       "description": ""
     },
     {
       "variantName": "Version 2",
-      "image": "Monster Java Mean Bean 2.png",
+      "image": "Monster Java Mean Bean.png",
       "size": "444",
       "description": ""
     },
@@ -153,9 +164,15 @@
     "flavor": "",
     "variants": [
     {
-      "variantName": "Monarch",
+      "variantName": "Monarch Version 1",
       "image": "Monster Juiced Monarch.png",
       "size": "500",
+      "description": ""
+    },
+    {
+      "variantName": "Monarch Version 2",
+      "image": "Monster Juiced Monarch 2.png",
+      "size": "",
       "description": ""
     },
     {
@@ -882,17 +899,57 @@
     "name": "Java Vanilla Light",
     "category": "Java",
     "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Java Vanilla Light.png"]
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Monster Java Vanilla Light.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Old Version 1",
+      "image": "Monster Java Vanilla Light Old.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Old Version 2",
+      "image": "Monster Java Vanilla Light Old 2.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Lo-Ball Version 1 (before Vanilla Light)",
+      "image": "Monster Java Lo-Ball.png",
+      "size": "444",
+      "description": ""
+    },
+    {
+      "variantName": "Lo-Ball Version 2 (before Vanilla Light)",
+      "image": "Monster Java Lo-Ball 2.png",
+      "size": "444",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Java Kona Blend",
     "category": "Java",
     "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Java Kona Blend.png"]
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Monster Java Kona Blend.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Small",
+      "image": "Monster Java Kona Blend 355 ml.png",
+      "size": "355",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Java Farmer's Oats",
@@ -1028,22 +1085,13 @@
   ]
   },
   {
-    "name": "Java Lo-Ball",
-    "category": "Java",
-    "category2": "",
-    "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Lo-Ball.png"]
-  },
-  {
     "name": "Java Chai Hat",
     "category": "Java",
     "category2": "",
     "flavor": "",
     "description": "",
     "size": "",
-    "images": ["Monster Chai Hat.png"]
+    "images": ["Monster Java Chai Hat.png"]
   },
   {
     "name": "Java Nut Up",
@@ -1073,22 +1121,30 @@
     "images": ["Monster Java Irish Blend.png"]
   },
   {
-    "name": "Java Loca Moca (old)",
-    "category": "Java",
-    "category2": "",
-    "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Java Loca Moca (old).png"]
-  },
-  {
     "name": "Java Big Black",
     "category": "Java",
     "category2": "",
     "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Java Big Black.png"]
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Java Big Black.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Java Big Black 2.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 3",
+      "image": "Monster Java Big Black 3.png",
+      "size": "",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Java Cappuccino",
@@ -1100,22 +1156,24 @@
     "images": ["Monster Java Cappuccino.png"]
   },
   {
-    "name": "Java Vanilla Light (old)",
-    "category": "Java",
-    "category2": "",
-    "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Java Vanilla Light (old).png"]
-  },
-  {
     "name": "Java Toffee",
     "category": "Java",
     "category2": "",
     "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Java Toffee.png"]
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Java Toffee.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Java Toffee 2.png",
+      "size": "",
+      "description": ""
+    }
+  ]
   },
   {
     "name": "Java Originale",
@@ -1253,5 +1311,34 @@
     "description": "",
     "size": "",
     "images": ["Monster Energy Assault - Call of Duty Modern Warfare 2.png"]
+  },
+  {
+    "name": "Cold Brew Sweet Black",
+    "category": "Special",
+    "category2": "Other",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Cold Brew Sweet Black.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Cold Brew Sweet Black 2.png",
+      "size": "",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Cold Brew Latte",
+    "category": "Special",
+    "category2": "Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Cold Brew Latte.png"]
   }
 ]
