@@ -38,9 +38,20 @@
     "name": "Pacific Punch",
     "category": "Punch",
     "flavor": "Classic Fruit Punch",
-    "description": "",
-    "size": "500",
-    "images": ["Monster Pacific Punch.png"]
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Monster Punch Pacific Punch.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Normal (Canada)",
+      "image": "Monster Punch Pacific Punch Canada.png",
+      "size": "",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Pipeline Punch",
@@ -63,7 +74,8 @@
   },
   {
     "name": "Dragon Ice Tea Lemon",
-    "category": "Dragon Ice Tea",
+    "category": "Dragon Tea",
+    "category2": "Dragon Ice Tea",
     "flavor": "",
     "description": "",
     "size": "473",
@@ -145,18 +157,57 @@
     "name": "Rehab Peach Tea",
     "category": "Rehab",
     "flavor": "Brewed Peach Tea",
-    "description": "",
-    "size": "458",
-    "images": ["Monster Rehab Peach Tea.png"]
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Monster Rehab Peach Tea.png",
+      "size": "458",
+      "description": ""
+    },
+    {
+      "variantName": "Normal (Canada)",
+      "image": "Monster Rehab Peach Tea Canada.png",
+      "size": "",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Juiced Mango Loco",
     "category": "Juiced",
     "flavor": "Juicy Mango",
-    "description": "",
-    "size": "500",
-    "size2": "355",
-    "images": ["Monster Juiced Mango Loco.png"]
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Monster Juiced Mango Loco.png",
+      "size": "500",
+      "description": ""
+    },
+    {
+      "variantName": "Normal (Canada)",
+      "image": "Monster Juiced Mango Loco Canada.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Small",
+      "image": "Monster Juiced Mango Loco 355 ml.png",
+      "size": "355",
+      "description": ""
+    },
+    {
+      "variantName": "Small (Canada)",
+      "image": "Monster Juiced Mango Loco 355 ml Canada.png",
+      "size": "355",
+      "description": ""
+    },
+    {
+      "variantName": "Small (Japan)",
+      "image": "Monster Juiced Mango Loco 355 ml Japan.png",
+      "size": "355",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Juiced Monarch",
@@ -282,7 +333,7 @@
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": ["Monster Lewis Hamilton Zero Sugar"]
+    "images": ["Monster Lewis Hamilton Zero Sugar.png"]
   },
   {
     "name": "Full Throttle",
@@ -386,9 +437,20 @@
     "name": "Ultra Paradise",
     "category": "Ultra",
     "flavor": "",
-    "description": "",
-    "size": "500",
-    "images": ["Monster Ultra Paradise.png"]
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Monster Ultra Paradise.png",
+      "size": "500",
+      "description": ""
+    },
+    {
+      "variantName": "Small",
+      "image": "Monster Ultra Paradise 355 ml.png",
+      "size": "355",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Ultra Fiesta Mango",
@@ -503,11 +565,23 @@
   },
   {
     "name": "Dragon Ice Tea Peach",
-    "category": "Dragon Ice Tea",
+    "category": "Dragon Tea",
+    "category2": "Dragon Ice Tea",
     "flavor": "Peach",
-    "description": "",
-    "size": "473",
-    "images": ["Monster Dragon Ice Tea Peach.png"]
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Dragon Ice Tea Peach 2.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Dragon Ice Tea Peach.png",
+      "size": "473",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Ultra Rosa",
@@ -555,9 +629,20 @@
     "name": "Ultra Sunrise",
     "category": "Ultra",
     "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Ultra Sunrise.png"]
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Monster Ultra Sunrise.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Small (China)",
+      "image": "Monster Ultra Sunrise 310 ml China.png",
+      "size": "310",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Ultra Red",
@@ -580,10 +665,20 @@
     "name": "Ultra Wild Passion",
     "category": "Ultra",
     "flavor": "",
-    "description": "",
-    "size": "473",
-    "size2": "355",
-    "images": ["Monster Ultra Wild Passion.png"]
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Monster Ultra Wild Passion.png",
+      "size": "473",
+      "description": ""
+    },
+    {
+      "variantName": "Small",
+      "image": "Monster Ultra Wild Passion 355 ml.png",
+      "size": "355",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Juiced Voodoo Grape",
@@ -597,9 +692,38 @@
     "name": "Monster Energy Absolutely zero",
     "category": "Monster Energy",
     "flavor": "",
-    "description": "",
-    "size": "",
-    "images": [".jpg"]
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Monster Energy Absolutely Zero.png",
+      "size": "500",
+      "description": ""
+    },
+    {
+      "variantName": "Small Version 1",
+      "image": "Monster Energy Absolutely Zero 355 ml.png",
+      "size": "355",
+      "description": ""
+    },
+    {
+      "variantName": "Small Version 2",
+      "image": "Monster Energy Absolutely Zero 355 ml 2.png",
+      "size": "355",
+      "description": ""
+    },
+    {
+      "variantName": "Small (Japan)",
+      "image": "Monster Energy Absolutely Zero 355 ml Japan.png",
+      "size": "355",
+      "description": ""
+    },
+    {
+      "variantName": "Mega",
+      "image": "Monster Energy Absolutely Zero 710 ml.png",
+      "size": "710",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Punch MIXXD",
@@ -612,10 +736,10 @@
   {
     "name": "Juiced Ripper",
     "category": "Juiced",
-    "flavor": "",
+    "flavor": "Tropical Juices",
     "description": "",
     "size": "",
-    "images": [".jpg"]
+    "images": ["Juiced Ripper"]
   },
   {
     "name": "Reserve White Pineapple",
@@ -623,7 +747,7 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": [".jpg"]
+    "images": ["Monster Reserve White Pineapple.png"]
   },
   {
     "name": "Reserve Watermelon",
@@ -666,25 +790,64 @@
     "name": "Rehab Tea + Lemonade",
     "category": "Rehab",
     "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Rehab Tea Lemonade.png"]
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Monster Rehab Tea Lemonade.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Normal (Canada)",
+      "image": "Monster Rehab Tea Lemonade Canada.png",
+      "size": "",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Rehab Green Tea",
     "category": "Rehab",
     "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Rehab Green Tea.png"]
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Rehab Green Tea.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 1 (Canada)",
+      "image": "Monster Rehab Green Tea Canada.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Rehab Green Tea 2.png",
+      "size": "",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Rehab Wild Berry Tea",
     "category": "Rehab",
     "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Rehab Wild Berry Tea.png"]
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Monster Rehab Wild Berry Tea.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Normal (Canada)",
+      "image": "Monster Rehab Wild Berry Tea Canada.png",
+      "size": "",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Rehab Strawberry Lemonade",
@@ -812,7 +975,7 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": [""]
+    "images": ["Monster Rehab Watermelon.png"]
   },
   {
     "name": "Maxx Super Dry",
@@ -857,6 +1020,7 @@
   {
     "name": "Dragon Tea Green Tea",
     "category": "Dragon Tea",
+    "category2": "Dragon Tea",
     "flavor": "",
     "description": "",
     "size": "",
@@ -865,6 +1029,7 @@
   {
     "name": "Dragon Tea White Tea",
     "category": "Dragon Tea",
+    "category2": "Dragon Tea",
     "flavor": "",
     "description": "",
     "size": "",
@@ -917,17 +1082,25 @@
       "image": "Monster Java Vanilla Light Old 2.png",
       "size": "",
       "description": ""
-    },
+    }
+    ]
+  },
+  {
+    "name": "Java Lo-Ball",
+    "category": "Java",
+    "category2": "",
+    "flavor": "",
+    "variants": [
     {
-      "variantName": "Lo-Ball Version 1 (before Vanilla Light)",
+      "variantName": "Version 1",
       "image": "Monster Java Lo-Ball.png",
-      "size": "444",
+      "size": "",
       "description": ""
     },
     {
-      "variantName": "Lo-Ball Version 2 (before Vanilla Light)",
+      "variantName": "Version 2",
       "image": "Monster Java Lo-Ball 2.png",
-      "size": "444",
+      "size": "",
       "description": ""
     }
     ]
@@ -1203,8 +1376,6 @@
     "images": ["Monster Energy Phantom M-100.png"]
   },
   {
-  },
-  {
     "name": "Java Kona Cappuccino",
     "category": "Java",
     "category2": "",
@@ -1212,15 +1383,6 @@
     "description": "",
     "size": "",
     "images": ["Monster Java Kona Cappuccino.png"]
-  },
-  {
-    "name": "Rehab Green Tea",
-    "category": "Rehab",
-    "category2": "",
-    "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Rehab Green Tea 2.png"]
   },
   {
     "name": "Monster Energy - Call of Duty: Ghosts",
@@ -1256,25 +1418,42 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": ["Monster Energy - Call of Duty Modern Warfare 3.png"]
+    "images": ["Monster Energy Call of Duty Modern Warfare 3.png"]
   },
   {
     "name": "Ultra White - Call of Duty: Modern Warfare 3",
     "category": "Special",
     "category2": "Call of Duty",
     "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Ultra White - Call of Duty Modern Warfare 3.png"]
+    "variants": [
+    {
+      "variantName": "Normal (Europe)",
+      "image": "Monster Ultra White Call of Duty Modern Warfare 3.png",
+      "size": "500",
+      "description": ""
+    },
+    {
+      "variantName": "Normal (USA)",
+      "image": "Monster Ultra White Call of Duty Modern Warfare 3 USA.png",
+      "size": "473",
+      "description": ""
+    },
+    {
+      "variantName": "Mega",
+      "image": "Monster Ultra White Call of Duty Modern Warfare 710 ml.png",
+      "size": "710",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Juiced Mango Loco - Call of Duty: Modern Warfare 3",
     "category": "Special",
     "category2": "Call of Duty",
-    "flavor": "",
+    "flavor": "Juicy Mango",
     "description": "",
-    "size": "",
-    "images": ["Monster Juiced Mango Loco - Call of Duty Modern Warfare 3.png"]
+    "size": "500",
+    "images": ["Monster Juiced Mango Loco Call of Duty Modern Warfare 3.png"]
   },
   {
     "name": "Monster Energy - Call of Duty: Black Ops 3",
@@ -1340,5 +1519,86 @@
     "description": "",
     "size": "",
     "images": ["Monster Cold Brew Latte.png"]
+  },
+  {
+    "name": "Monster Energy - Assassin's Creed",
+    "category": "Special",
+    "category2": "Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Energy Assassin's Creed.png"]
+  },
+  {
+    "name": "Monster Energy Zero Sugar - Call of Duty: Modern Warfare 3",
+    "category": "Special",
+    "category2": "Call of Duty",
+    "flavor": "",
+    "description": "",
+    "size": "473",
+    "images": ["Monster Energy Zero Sugar Call of Duty Modern Warfare 3 USA.png"]
+  },
+  {
+    "name": "Monster Energy - Call of Duty: Modern Warfare 2",
+    "category": "Special",
+    "category2": "Call of Duty",
+    "flavor": "",
+    "description": "",
+    "size": "710",
+    "images": ["Monster Energy Call of Duty Modern Warfare 2 710 ml.png"]
+  },
+  {
+    "name": "Top Speed",
+    "category": "Monster Energy",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "500",
+    "images": ["Monster Energy Top Speed.png"]
+  },
+  {
+    "name": "Dragon Iced Tea Raspberry Tea",
+    "category": "Dragon Tea",
+    "category2": "Dragon Iced Tea",
+    "flavor": "",
+    "description": "",
+    "size": "680",
+    "images": ["Monster Dragon Iced Tea Raspberry Tea.png"]
+  },
+  {
+    "name": "Dragon Chinese Tea",
+    "category": "Dragon Tea",
+    "category2": "Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Dragon Chinese Tea.png"]
+  },
+  {
+    "name": "Dragon Iced Tea Green Tea",
+    "category": "Dragon Tea",
+    "category2": "Dragon Iced Tea",
+    "flavor": "",
+    "description": "",
+    "size": "680",
+    "images": ["Monster Dragon Iced Tea Green Tea.png"]
+  },
+  {
+    "name": "Dragon Iced Tea Lemon Tea",
+    "category": "Dragon Tea",
+    "category2": "Dragon Iced Tea",
+    "flavor": "",
+    "description": "",
+    "size": "680",
+    "images": ["Monster Dragon Iced Tea Lemon Tea.png"]
+  },
+  {
+    "name": "Dragon Tea Verba Mate",
+    "category": "Dragon Tea",
+    "category2": "Dragon Tea",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Dragon Tea Verba Mate.png"]
   }
 ]

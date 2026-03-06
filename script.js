@@ -84,9 +84,11 @@ function renderMonsters() {
     });
 
     const sortedCategories = Object.keys(categories).sort((a, b) => {
-        const fixedOrder = { "Classic": -2, "People": 100, "Special": 101 };
+        /* Definiamo pesi specifici: Classic all'inizio (-2), Special alla fine (101) */
+        const fixedOrder = { "Classic": -2, "Special": 101, "People": 100 };
         const orderA = fixedOrder[a] !== undefined ? fixedOrder[a] : 0;
         const orderB = fixedOrder[b] !== undefined ? fixedOrder[b] : 0;
+        
         if (orderA !== orderB) return orderA - orderB;
         return a.localeCompare(b);
     });
@@ -127,9 +129,17 @@ function renderMonsters() {
                 const card = document.createElement('div');
                 card.className = `monster-card ${isOwnedGeneric ? 'owned' : ''}`;
 
+                /* LOGICA FIXATA PER L'IMMAGINE: controlla varianti, poi images, poi fallback */
+                let imageSrc = "";
+                if (m.variants && m.variants.length > 0) {
+                    imageSrc = m.variants[0].image;
+                } else if (m.images && m.images.length > 0) {
+                    imageSrc = m.images[0];
+                }
+
                 card.innerHTML = `
                     <div class="card-click-area">
-                        <img src="img/${m.variants ? m.variants[0].image : m.images[0]}">
+                        <img src="img/${imageSrc}">
                     </div>
                     <h3>${m.name}</h3>
                     <div class="status-container">
@@ -161,9 +171,9 @@ function openModal(m) {
 }
 
 function renderModalContent(m) {
-    const variants = m.variants || [{ 
+    const variants = (m.variants && m.variants.length > 0) ? m.variants : [{ 
         variantName: "Standard", 
-        image: m.images ? m.images[0] : "", 
+        image: (m.images && m.images.length > 0) ? m.images[0] : "", 
         size: m.size || "500", 
         description: m.description || "" 
     }];
@@ -177,11 +187,13 @@ function renderModalContent(m) {
     document.getElementById('modal-body').innerHTML = `
         <div class="variant-slider">
             <button class="slider-btn" id="prevVar"><</button>
-            <img src="img/${v.image}" class="variant-img">
+            <a href="img/${v.image}" data-fancybox="monster-details" data-caption="${m.name} - ${v.variantName}">
+                <img src="img/${v.image}" class="variant-img" style="cursor: zoom-in;">
+            </a>
             <button class="slider-btn" id="nextVar">></button>
         </div>
         <h2 style="color:#32cd32;">${m.name}</h2>
-        <p style="color: #888; font-size: 0.8rem;">${v.variantName} - ${v.size}ml</p>
+        <p style="color: #888; font-size: 0.8rem;">${v.variantName} ${v.size ? '- ' + v.size + 'ml' : ''}</p>
         
         <button class="add-variant-btn ${isVariantOwned ? 'owned' : ''}" id="toggleVariant">
             ${isVariantOwned ? '✓ VARIANT IN COLLECTION' : '+ ADD THIS VERSION'}
@@ -196,6 +208,7 @@ function renderModalContent(m) {
         </div>
     `;
 
+    /* Ripristina i listener dei bottoni variant e generic come prima */
     document.getElementById('prevVar').onclick = () => {
         currentVariantIndex = (currentVariantIndex > 0) ? currentVariantIndex - 1 : variants.length - 1;
         renderModalContent(m);
@@ -249,3 +262,10 @@ async function toggleOwnership(m, shouldOwn) {
         renderMonsters();
     }
 }
+Fancybox.bind("[data-fancybox]", {
+    Images: {
+        Panzoom: {
+            zoomOnWheel: true,
+        },
+    },
+});
