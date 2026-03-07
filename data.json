@@ -69,11 +69,17 @@
       "image": "Monster Punch Pipeline Punch 355ml.png",
       "size": "",
       "description": ""
+    },
+    {
+      "variantName": "Bottle",
+      "image": "Monster Punch Pipeline Punch Bottle.png",
+      "size": "",
+      "description": ""
     }
     ]
   },
   {
-    "name": "Dragon Ice Tea Lemon",
+    "name": "Lemon",
     "category": "Dragon Tea",
     "category2": "Dragon Ice Tea",
     "flavor": "",
@@ -336,7 +342,7 @@
     "images": ["Monster Lewis Hamilton Zero Sugar.png"]
   },
   {
-    "name": "Full Throttle",
+    "name": "Monster Energy Full Throttle",
     "category": "Monster Energy",
     "flavor": "",
     "description": "",
@@ -383,6 +389,12 @@
       "variantName": "Normal (Violet top - 500 ml)",
       "image": "Monster Ultra Violet.png",
       "size": "500",
+      "description": ""
+    },
+    {
+      "variantName": "Normal (Canada)",
+      "image": "Monster Ultra Violet Canada.png",
+      "size": "",
       "description": ""
     },
     {
@@ -472,9 +484,26 @@
     "name": "Ultra Watermelon",
     "category": "Ultra",
     "flavor": "",
-    "description": "",
-    "size": "500",
-    "images": ["Monster Ultra Watermelon.png"]
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Monster Ultra Watermelon.png",
+      "size": "500",
+      "description": ""
+    },
+    {
+      "variantName": "Normal (USA)",
+      "image": "Monster Ultra Watermelon USA.png",
+      "size": "473",
+      "description": ""
+    },
+    {
+      "variantName": "Normal (Green Top)",
+      "image": "Monster Ultra Watermelon Green Top.png",
+      "size": "473",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Ultra Golden Pineapple",
@@ -491,7 +520,7 @@
     "flavor": "",
     "description": "",
     "size": "500",
-    "images": ["Monster Energy - Call of Duty Black Ops 6.png"]
+    "images": ["Monster Energy Call of Duty Black Ops 6.png"]
   },
   {
     "name": "Monster Energy - Call of Duty: Black Ops 7",
@@ -525,9 +554,20 @@
     "category": "Special",
     "category2": "Call of Duty",
     "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Ultra White - Call of Duty Black Ops 6.png"]
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Monster Ultra White Call of Duty Black Ops 6.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Mega",
+      "image": "Monster Ultra White Call of Duty Black Ops 6 Top.png",
+      "size": "710",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Monster Energy Zero Sugar - Call of Duty: Black Ops 6",
@@ -536,7 +576,7 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": ["Monster Energy Zero Sugar - Call of Duty Black Ops 6.png"]
+    "images": ["Monster Energy Zero Sugar Call of Duty Black Ops 6.png"]
   },
   {
     "name": "Monster Energy Zero Sugar - Call of Duty: Black Ops 7",
@@ -545,7 +585,7 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": ["Monster Energy Zero Sugar - Call of Duty Black Ops 7.png"]
+    "images": ["Monster Energy Zero Sugar Call of Duty Black Ops 7.png"]
   },
   {
     "name": "Ultra Black",
@@ -564,7 +604,7 @@
     "images": ["Monster Ultra Vice Guava.png"]
   },
   {
-    "name": "Dragon Ice Tea Peach",
+    "name": "Peach",
     "category": "Dragon Tea",
     "category2": "Dragon Ice Tea",
     "flavor": "Peach",
@@ -739,7 +779,7 @@
     "flavor": "Tropical Juices",
     "description": "",
     "size": "",
-    "images": ["Juiced Ripper"]
+    "images": ["Monster Juiced Ripper.png"]
   },
   {
     "name": "Reserve White Pineapple",
@@ -868,7 +908,7 @@
   {
     "name": "Killer Brew Mean Bean",
     "category": "Killer Brew",
-    "flavor": "Coffee",
+    "flavor": "",
     "description": "",
     "size": "",
     "images": ["Monster Killer Brew Mean Bean.png"]
@@ -882,16 +922,16 @@
     "images": ["Monster Killer Brew Loca Moca.png"]
   },
   {
-    "name": "Java Monster 300 French Vanilla",
-    "category": "Java",
-    "flavor": "Coffee",
+    "name": "French Vanilla",
+    "category": "Java Monster 300",
+    "flavor": "",
     "description": "",
     "size": "",
     "images": ["Monster Java Monster 300 French Vanilla.png"]
   },
   {
-    "name": "Java Monster 300 Mocha",
-    "category": "Java",
+    "name": "Mocha",
+    "category": "Java Monster 300",
     "flavor": "",
     "description": "",
     "size": "",
@@ -978,7 +1018,7 @@
     "images": ["Monster Rehab Watermelon.png"]
   },
   {
-    "name": "Maxx Super Dry",
+    "name": "Super Dry",
     "category": "Maxx",
     "flavor": "",
     "description": "",
@@ -986,7 +1026,7 @@
     "images": ["Monster Maxx Super Dry.png"]
   },
   {
-    "name": "Maxx Solaris",
+    "name": "Solaris",
     "category": "Maxx",
     "flavor": "",
     "description": "",
@@ -994,7 +1034,7 @@
     "images": ["Monster Maxx Solaris.png"]
   },
   {
-    "name": "Maxx Eclipse",
+    "name": "Eclipse",
     "category": "Maxx",
     "flavor": "",
     "description": "",
@@ -1002,7 +1042,7 @@
     "images": ["Monster Maxx Eclipse.png"]
   },
   {
-    "name": "Maxx Rad Red",
+    "name": "Rad Red",
     "category": "Maxx",
     "flavor": "",
     "description": "",
@@ -1010,7 +1050,7 @@
     "images": ["Monster Maxx Rad Red.png"]
   },
   {
-    "name": "Maxx Mango Matic",
+    "name": "Mango Matic",
     "category": "Maxx",
     "flavor": "",
     "description": "",
@@ -1018,16 +1058,16 @@
     "images": ["Monster Maxx Mango Matic.png"]
   },
   {
-    "name": "Dragon Tea Green Tea",
+    "name": "Green Tea",
     "category": "Dragon Tea",
     "category2": "Dragon Tea",
     "flavor": "",
     "description": "",
     "size": "",
-    "images": ["Dragon Tea Green Tea.png"]
+    "images": ["Monster Dragon Tea Green Tea.png"]
   },
   {
-    "name": "Dragon Tea White Tea",
+    "name": "White Tea",
     "category": "Dragon Tea",
     "category2": "Dragon Tea",
     "flavor": "",
@@ -1056,9 +1096,20 @@
     "category": "Special",
     "category2": "Other",
     "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Energy Assault.png"]
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Monster Energy Assault.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Old",
+      "image": "Monster Energy Assault Old.png",
+      "size": "",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Java Vanilla Light",
@@ -1149,20 +1200,60 @@
     "images": ["Monster Rehab Pink Lemonade.png"]
   },
   {
-    "name": "X-presso Hammer",
+    "name": "Hammer",
     "category": "X-presso",
     "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster X-presso Hammer.png"]
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster X-presso Hammer.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster X-presso Hammer 2.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 3",
+      "image": "Monster X-presso Hammer 3.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 4",
+      "image": "Monster X-presso Hammer 4.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 5",
+      "image": "Monster X-presso Hammer 5.png",
+      "size": "",
+      "description": ""
+    }
+    ]
   },
   {
-    "name": "X-presso Midnite",
+    "name": "Midnite",
     "category": "X-presso",
     "flavor": "",
-    "description": "",
-    "size": "",
-    "images": [""]
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster X-presso Midnite.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster X-presso Midnite 2.png",
+      "size": "",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Monster Energy Cuba-Lima",
@@ -1187,7 +1278,7 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": ["Monster Punch Baller's Blend.png"]
+    "images": ["Monster Punch Ballers Blend.png"]
   },
   {
     "name": "Monster Energy Khaos",
@@ -1212,18 +1303,35 @@
     "category": "Special",
     "category2": "Other",
     "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Übermonster.png"]
+    "variants": [
+    {
+      "variantName": "Bottle",
+      "image": "Monster Energy Ubermonster Bottle.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Can",
+      "image": "Monster Energy Ubermonster Can.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Bottle Opener",
+      "image": "Monster Energy Ubermonster Bottle Opener.png",
+      "size": "",
+      "description": ""
+    }
+    ]
   },
   {
-    "name": "Monster Energy M80",
+    "name": "Monster Energy M-80",
     "category": "Special",
     "category2": "Other",
     "flavor": "",
     "description": "",
     "size": "",
-    "images": ["Monster M80.png"]
+    "images": ["Monster Energy M-80.png"]
   },
   {
     "name": "Monster Energy Unleaded",
@@ -1267,22 +1375,33 @@
     "images": ["Monster Java Chai Hat.png"]
   },
   {
-    "name": "Java Nut Up",
+    "name": "Java Nut-Up",
     "category": "Java",
     "category2": "",
     "flavor": "",
     "description": "",
     "size": "",
-    "images": ["Monster Nut Up.png"]
+    "images": ["Monster Java Nut-Up.png"]
   },
   {
     "name": "Java Russian",
     "category": "Java",
     "category2": "",
     "flavor": "",
-    "description": "",
-    "size": "",
-    "images": ["Monster Russian.png"]
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Java Russian.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Java Russian 2.png",
+      "size": "",
+      "description": ""
+    }
+    ]
   },
   {
     "name": "Java Irish Blend",
@@ -1391,7 +1510,7 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": ["Monster Energy - Call of Duty Ghosts.png"]
+    "images": ["Monster Energy Call of Duty Ghosts.png"]
   },
   {
     "name": "Monster Energy Lo-Carb - Call of Duty: Ghosts",
@@ -1400,7 +1519,7 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": ["Monster Energy Lo-Carb  - Call of Duty Ghosts.png"]
+    "images": ["Monster Energy Lo Carb Call of Duty Ghosts.png"]
   },
   {
     "name": "Monster Energy - Call of Duty: Black Ops 4",
@@ -1409,7 +1528,7 @@
     "flavor": "",
     "description": "",
     "size": "",
-    "images": ["Monster Energy - Call of Duty Black Ops 4.png"]
+    "images": ["Monster Energy Call of Duty Black Ops 4.png"]
   },
   {
     "name": "Monster Energy - Call of Duty: Modern Warfare 3",
@@ -1548,7 +1667,7 @@
     "images": ["Monster Energy Call of Duty Modern Warfare 2 710 ml.png"]
   },
   {
-    "name": "Top Speed",
+    "name": "Monster Energy Top Speed",
     "category": "Monster Energy",
     "category2": "",
     "flavor": "",
@@ -1557,7 +1676,7 @@
     "images": ["Monster Energy Top Speed.png"]
   },
   {
-    "name": "Dragon Iced Tea Raspberry Tea",
+    "name": "Raspberry Tea",
     "category": "Dragon Tea",
     "category2": "Dragon Iced Tea",
     "flavor": "",
@@ -1567,7 +1686,7 @@
   },
   {
     "name": "Dragon Chinese Tea",
-    "category": "Dragon Tea",
+    "category": "Special",
     "category2": "Other",
     "flavor": "",
     "description": "",
@@ -1575,7 +1694,7 @@
     "images": ["Monster Dragon Chinese Tea.png"]
   },
   {
-    "name": "Dragon Iced Tea Green Tea",
+    "name": "Green Tea",
     "category": "Dragon Tea",
     "category2": "Dragon Iced Tea",
     "flavor": "",
@@ -1584,7 +1703,7 @@
     "images": ["Monster Dragon Iced Tea Green Tea.png"]
   },
   {
-    "name": "Dragon Iced Tea Lemon Tea",
+    "name": "Lemon Tea",
     "category": "Dragon Tea",
     "category2": "Dragon Iced Tea",
     "flavor": "",
@@ -1593,12 +1712,691 @@
     "images": ["Monster Dragon Iced Tea Lemon Tea.png"]
   },
   {
-    "name": "Dragon Tea Verba Mate",
+    "name": "Verba Mate",
     "category": "Dragon Tea",
     "category2": "Dragon Tea",
     "flavor": "",
     "description": "",
     "size": "",
     "images": ["Monster Dragon Tea Verba Mate.png"]
+  },
+  {
+    "name": "Monster Energy Fury",
+    "category": "Special",
+    "category2": "Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Energy Fury.png"]
+  },
+  {
+    "name": "Monster Energy Extra Strenght",
+    "category": "Special",
+    "category2": "Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Energy Extra Strenght.png"]
+  },
+  {
+    "name": "Extra Strenght Anti Gravity",
+    "category": "Extra Strenght",
+    "category2": "",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Extra Strenght Anti Gravity.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Extra Strenght Anti Gravity 2.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 3",
+      "image": "Monster Extra Strenght Anti Gravity Top.png",
+      "size": "",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Extra Strenght Black Ice",
+    "category": "Extra Strenght",
+    "category2": "",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Extra Strenght Black Ice.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Extra Strenght Black Ice Top.png",
+      "size": "",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Extra Strenght Killer-B",
+    "category": "Extra Strenght",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Extra Strenght Killer B.png"]
+  },
+  {
+    "name": "Extra Strenght Super Dry",
+    "category": "Extra Strenght",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Extra Strenght Super Dry.png"]
+  },
+  {
+    "name": "Muscle Chocolate",
+    "category": "Muscle",
+    "category2": "",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Muscle Chocolate.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Muscle Chocolate 2.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Bottle",
+      "image": "Monster Muscle Chocolate Bottle.png",
+      "size": "",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Muscle Coffee",
+    "category": "Muscle",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Muscle Coffee.png"]
+  },
+  {
+    "name": "Muscle Strawberry",
+    "category": "Muscle",
+    "category2": "",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Muscle Strawberry.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Muscle Strawberry 2.png",
+      "size": "",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Muscle Vanilla",
+    "category": "Muscle",
+    "category2": "",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Muscle Vanilla.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Muscle Vanilla 2.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Bottle",
+      "image": "Monster Muscle Vanilla Bottle.png",
+      "size": "",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Nitrous Anti Gravity",
+    "category": "Nitrous",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Nitrous Anti Gravity Top.png"]
+  },
+  {
+    "name": "Nitrous Killer-B",
+    "category": "Nitrous",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Nitrous Killer B Top.png"]
+  },
+  {
+    "name": "Nitrous Super Dry",
+    "category": "Nitrous",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Nitrous Super Dry.png"]
+  },
+  {
+    "name": "Rehab Orangeade",
+    "category": "Rehab",
+    "category2": "",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Rehab Orangeade.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Rehab Orangeade 2.png",
+      "size": "",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Rehab Protean",
+    "category": "Rehab",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Rehab Protean.png"]
+  },
+  {
+    "name": "Rehab Raspberry Tea",
+    "category": "Rehab",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Rehab Raspberry Tea.png"]
+  },
+  {
+    "name": "Rehab Rojo Tea",
+    "category": "Rehab",
+    "category2": "",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Rehab Rojo Tea.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Rehab Rojo Tea 2.png",
+      "size": "",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Ultra Gold",
+    "category": "Ultra",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Ultra Gold.png"]
+  },
+  {
+    "name": "Blue Ice",
+    "category": "Hydro",
+    "category2": "Hydro",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Hydro Blue Ice.png"]
+  },
+  {
+    "name": "Manic Melon",
+    "category": "Hydro",
+    "category2": "Hydro",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Hydro Manic Melon.png"]
+  },
+  {
+    "name": "Purple Passion",
+    "category": "Hydro",
+    "category2": "Hydro",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Hydro Purple Passion.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Hydro Purple Passion 2.png",
+      "size": "",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Charge",
+    "category": "Hydro",
+    "category2": "Hydro Sport",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Hydro Sport Charge.png"]
+  },
+  {
+    "name": "Hang Time",
+    "category": "Hydro",
+    "category2": "Hydro Sport",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Hydro Sport Hang Time.png"]
+  },
+  {
+    "name": "Stricker",
+    "category": "Hydro",
+    "category2": "Hydro Sport",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Hydro Sport Stricker.png"]
+  },
+  {
+    "name": "Zero Sugar",
+    "category": "Hydro",
+    "category2": "Hydro",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Hydro Zero Sugar.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Hydro Zero Sugar 2.png",
+      "size": "",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Blue Streak",
+    "category": "Hydro",
+    "category2": "Hydro Super Sport",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Hydro Super Sport Blue Streak.png"]
+  },
+  {
+    "name": "Red Dawg",
+    "category": "Hydro",
+    "category2": "Hydro Super Sport",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Hydro Super Sport Red Dawg.png"]
+  },
+  {
+    "name": "Tropical Thunder",
+    "category": "Hydro",
+    "category2": "Hydro Super Sport",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Hydro Super Sport Tropical Thunder.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Hydro Super Sport Tropical Thunder 2.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 3",
+      "image": "Monster Hydro Super Sport Tropical Thunder 3.png",
+      "size": "",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Blue Ice",
+    "category": "Super Fuel",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Super Fuel Blue Ice.png"]
+  },
+  {
+    "name": "Blue Streak",
+    "category": "Super Fuel",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Super Fuel Blue Streak.png"]
+  },
+  {
+    "name": "Mean Green",
+    "category": "Super Fuel",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Super Fuel Mean Green.png"]
+  },
+  {
+    "name": "Watermelon",
+    "category": "Super Fuel",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Super Fuel Watermelon.png"]
+  },
+  {
+    "name": "Subzero",
+    "category": "Super Fuel",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Super Fuel Subzero.png"]
+  },
+  {
+    "name": "Mocha",
+    "category": "Caffé Monster",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Caffe Monster Mocha.png"]
+  },
+  {
+    "name": "Salted Caramel",
+    "category": "Caffé Monster",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Caffe Monster Salted Caramel.png"]
+  },
+  {
+    "name": "Vanilla",
+    "category": "Caffé Monster",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Caffe Monster Vanilla.png"]
+  },
+  {
+    "name": "Monster Energy Coffee Monster",
+    "category": "Special",
+    "category2": "Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Energy Coffee Monster.png"]
+  },
+  {
+    "name": "Monster Energy Cuba-Libre",
+    "category": "Special",
+    "category2": "Other",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Energy Cuba Libre.png"]
+  },
+  {
+    "name": "Monster Energy Stranger Things",
+    "category": "Special",
+    "category2": "Other",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster Energy Stranger Things.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster Energy Stranger Things 2.png",
+      "size": "",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Espresso and Cream",
+    "category": "Espresso Monster",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Espresso Monster Espresso and Cream.png"]
+  },
+  {
+    "name": "Espresso and Milk",
+    "category": "Espresso Monster",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Espresso Monster Espresso and Milk.png"]
+  },
+  {
+    "name": "Salted Caramel",
+    "category": "Espresso Monster",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Espresso Monster Salted Caramel.png"]
+  },
+  {
+    "name": "Vanilla and Espresso",
+    "category": "Espresso Monster",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Espresso Monster Vanilla and Espresso.png"]
+  },
+  {
+    "name": "Gold Strike",
+    "category": "Mutant",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Mutant Gold Strike.png"]
+  },
+  {
+    "name": "Original Green",
+    "category": "Mutant",
+    "category2": "",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "Bottle",
+      "image": "Monster Mutant Original Green Bottle.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Small Bottle",
+      "image": "Monster Mutant Original Green Small Bottle.png",
+      "size": "",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Red Dawn",
+    "category": "Mutant",
+    "category2": "",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "Can",
+      "image": "Monster Mutant Red Dawn.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Bottle",
+      "image": "Monster Mutant Red Dawn Bottle.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Small Bottle",
+      "image": "Monster Mutant Red Dawn Small Bottle.png",
+      "size": "",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "White Lighting",
+    "category": "Mutant",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Mutant White Lighting Bottle.png"]
+  },
+  {
+    "name": "Gnarly Grape",
+    "category": "The Beast",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster The Beast Gnarly Grape.png"]
+  },
+  {
+    "name": "Killer Sunrise",
+    "category": "The Beast",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster The Beast Killer Sunrise.png"]
+  },
+  {
+    "name": "Mean Green",
+    "category": "The Beast",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster The Beast Mean Green.png"]
+  },
+  {
+    "name": "Peach Perfect",
+    "category": "The Beast",
+    "category2": "",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "Version 1",
+      "image": "Monster The Beast Peach Perfect.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Version 2",
+      "image": "Monster The Beast Peach Perfect 2.png",
+      "size": "",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Pink Poison",
+    "category": "The Beast",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster The Beast Pink Poison.png"]
+  },
+  {
+    "name": "Scary Berries",
+    "category": "The Beast",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster The Beast Scary Berries.png"]
+  },
+  {
+    "name": "White Haze",
+    "category": "The Beast",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster The Beast White Haze.png"]
+  },
+  {
+    "name": "Juiced Mango Loco - Call of Duty: Black Ops 6",
+    "category": "Special",
+    "category2": "Call of Duty",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Monster Juiced Mango Loco Call of Duty Black Ops 6.png"]
   }
 ]
