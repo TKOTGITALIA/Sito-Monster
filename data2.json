@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Red Bull Energy Drink",
+    "category": "Classic",
+    "category2": "",
+    "flavor": "Original",
+    "variants": [
+    {
+      "variantName": "250 ml - Version 1",
+      "image": "Red Bull 250 ml.png",
+      "size": "250",
+      "description": ""
+    },
+    {
+      "variantName": "250 ml - Version 2",
+      "image": "Red Bull 250 ml 2.png",
+      "size": "250",
+      "description": ""
+    },
+    {
+      "variantName": "355 ml",
+      "image": "Red Bull 355 ml.png",
+      "size": "355",
+      "description": ""
+    },
+    {
+      "variantName": "473 ml",
+      "image": "Red Bull 473 ml.png",
+      "size": "473",
+      "description": ""
+    },
+    {
+      "variantName": "Bottle",
+      "image": "Red Bull Bottle.png",
+      "size": "330",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Red Bull Cold Brew Coffee",
+    "category": "Special",
+    "category2": "",
+    "flavor": "",
+    "images": ["Red Bull Cold Brew Coffee.png"],
+    "size": "250"
+  },
+  {
+    "name": "Red Bull Extra",
+    "category": "Special",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "400",
+    "images": ["Red Bull Extra.png"]
+  },
+  {
+    "name": "Red Bull Sugarfree",
+    "category": "Classic",
+    "category2": "",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "250 ml - Version 1",
+      "image": "Red Bull Sugarfree 250 ml.png",
+      "size": "250",
+      "description": ""
+    },
+    {
+      "variantName": "250 ml - Version 2",
+      "image": "Red Bull Sugarfree 250 ml 2.png",
+      "size": "250",
+      "description": ""
+    },
+    {
+      "variantName": "12 oz",
+      "image": "Red Bull Sugarfree 12 oz.png",
+      "size": "355",
+      "description": ""
+    },
+    {
+      "variantName": "16 oz",
+      "image": "Red Bull Sugarfree 16 oz.png",
+      "size": "473",
+      "description": ""
+    },
+    {
+      "variantName": "20 oz",
+      "image": "Red Bull Sugarfree 20 oz.png",
+      "size": "",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Red Bull Tetris",
+    "category": "Special",
+    "category2": "",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "Normal",
+      "image": "Red Bull Tetris.png",
+      "size": "250",
+      "description": ""
+    },
+    {
+      "variantName": "Limited edition",
+      "image": "Red Bull Tetris 2.png",
+      "size": "",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Red Bull Trent Alexander Arnold",
+    "category": "Special",
+    "category2": "",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "Classic",
+      "image": "Red Bull Trent Alexander Arnold.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Sugarfree",
+      "image": "Red Bull Sugarfree Trent Alexander Arnold.png",
+      "size": "",
+      "description": ""
+    },
+    {
+      "variantName": "Zero",
+      "image": "Red Bull Zero Trent Alexander Arnold.png",
+      "size": "",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Red Bull Home Ground",
+    "category": "Special",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Red Bull Home Ground.png"]
+  },
+  {
+    "name": "Red Bull Simply Cola",
+    "category": "Special",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "",
+    "images": ["Red Bull Simply Cola.png"]
+  },
+  {
+    "name": "Zero",
+    "category": "Classic",
+    "category2": "",
+    "flavor": "",
+    "variants": [
+    {
+      "variantName": "250 ml",
+      "image": "Red Bull Zero 250 ml.png",
+      "size": "250",
+      "description": ""
+    },
+    {
+      "variantName": "12 oz",
+      "image": "Red Bull Zero 12 oz.png",
+      "size": "355",
+      "description": ""
+    },
+    {
+      "variantName": "Old 250 ml - Version 1",
+      "image": "Red Bull Zero Old.png",
+      "size": "250",
+      "description": ""
+    },
+    {
+      "variantName": "Old 250 ml - Version 2",
+      "image": "Red Bull Zero Old 2.png",
+      "size": "250",
+      "description": ""
+    },
+    {
+      "variantName": "Old 12 oz",
+      "image": "Red Bull Zero Old 12 oz.png",
+      "size": "355",
+      "description": ""
+    }
+    ]
+  },
+  {
+    "name": "Total Zero",
+    "category": "Classic",
+    "category2": "",
+    "flavor": "",
+    "description": "",
+    "size": "355",
+    "images": ["Red Bull Total Zero.png"]
+  }
+]

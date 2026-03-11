@@ -5,30 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monster Energy Collector</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
 </head>
 <body>
     <header>
-        <h1>My Monster Collection</h1>
+        <div class="collection-selector">
+            <button class="selector-btn monster" onclick="loadMonsters('data.json')">MONSTER</button>
+            <button class="selector-btn redbull" onclick="loadMonsters('data2.json')">RED BULL</button>
+        </div>
         <div id="auth-section">
             <button id="login-btn">Login with Google</button>
-            <span id="user-info" class="hidden"></span>
-            <button id="logout-btn" class="hidden">Logout</button>
+            <span id="user-info"></span> <button id="logout-btn" class="hidden">Logout</button>
         </div>
     </header>
 
-<main id="container"></main>
+    <main id="container"></main>
 
     <div id="monster-modal" class="modal">
         <div class="modal-content">
             <span class="close-button">&times;</span>
-            <div id="modal-body">
-                </div> 
+            <div id="modal-body"></div> 
         </div>
     </div>
 
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    
     <script src="script.js"></script>
 </body>
 </html>

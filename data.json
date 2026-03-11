@@ -5,16 +5,22 @@
     "flavor": "Sweet and Salty",
     "variants": [
     {
-      "variantName": "Normal",
-      "image": "Monster Energy 500ml.png",
+      "variantName": "Normal (500 ml)",
+      "image": ["Monster Energy 500ml.png"],
       "size": "500",
+      "description": "Tear into a can of the meanest energy drink on the planet, Monster Energy.<br>It's the ideal combo of the right ingredients in the right proportion to deliver the big bad buzz that only Monster can.<br>Monster packs a powerful punch but has a smooth easy drinking flavor.<br>Athletes, musicians, anarchists, co-ed's, road warriors, metal heads, geeks, hipsters, and bikers dig it - you will too.<br>Unleash the Beast!"
+    },
+    {
+      "variantName": "Normal (473 ml)",
+      "image": ["Monster Energy 473 ml.png", "Monster Energy 473 ml _2.png"],
+      "size": "473",
       "description": "Tear into a can of the meanest energy drink on the planet, Monster Energy.<br>It's the ideal combo of the right ingredients in the right proportion to deliver the big bad buzz that only Monster can.<br>Monster packs a powerful punch but has a smooth easy drinking flavor.<br>Athletes, musicians, anarchists, co-ed's, road warriors, metal heads, geeks, hipsters, and bikers dig it - you will too.<br>Unleash the Beast!"
     },
     {
       "variantName": "Small",
       "image": "Monster Energy 355ml.png",
       "size": "355",
-      "description": ""
+      "description": "Tear into a can of the meanest energy drink on the planet, Monster Energy.<br>It's the ideal combo of the right ingredients in the right proportion to deliver the big bad buzz that only Monster can.<br>Monster packs a powerful punch but has a smooth easy drinking flavor.<br>Athletes, musicians, anarchists, co-ed's, road warriors, metal heads, geeks, hipsters, and bikers dig it - you will too.<br>Unleash the Beast!"
     }
     ]
   },
